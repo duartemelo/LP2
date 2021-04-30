@@ -26,7 +26,7 @@ namespace LP2
 
 
         //Propriedades
-        public static int NumIncendios
+        public int NumIncendios
         {
             get => numIncendios;
         }
@@ -36,7 +36,7 @@ namespace LP2
 
 
         //Métodos
-        public static bool CriarNovoIncendio (string tipo, float[] coordenadas)
+        public bool CriarNovoIncendio (string tipo, float[] coordenadas)
         {
             
             //criar incendio
@@ -57,11 +57,41 @@ namespace LP2
             return true;
         }
 
-        public static bool DefinirEstadoIncendio (int id, string estado)
+        public int NumeroIncendiosEstado(string estado)
         {
-            Incendio encontrado = incendios.Find(x => x.Id == id);
-            encontrado.Estado = estado;
-            return true;
+            int incendiosPorEstado = 0;
+
+            //percorrer lista de incendios e ver os que têm estado ativo
+            foreach(Incendio incendio in incendios)
+            {
+                if (incendio.Estado == estado)
+                {
+                    incendiosPorEstado++;
+                }
+            }
+
+            return incendiosPorEstado;
+        }
+
+        public void MostrarIncendios()
+        {
+            foreach (Incendio incendio in incendios)
+            {
+                incendio.MostrarIncendio();
+            }
+        }
+
+        public Incendio EncontrarIncendioId(int id)
+        {
+            Incendio incendioEncontrado = null;
+            foreach(Incendio incendio in incendios)
+            {
+                if (incendio.Id == id)
+                {
+                    incendioEncontrado = incendio;
+                }
+            }
+            return incendioEncontrado;
         }
 
 
@@ -69,7 +99,7 @@ namespace LP2
 
     class Incendio
     {
-        static int id;
+        int id;
         string tipo;
         float[] coordenadas;
         string estado;
@@ -112,29 +142,42 @@ namespace LP2
             set => estado = value;
         }
 
-
-        public static Incendio AdicionarOperacional (Incendio incendio, int id)
+        public bool DefinirEstadoIncendio(string estadoRecebido)
         {
-            incendio.operacionaisIDs.Add(id);
-            return incendio;
+            estado = estadoRecebido;
+            return true;
         }
 
-        public static Incendio RemoverOperacional(Incendio incendio, int id)
+
+        public bool AdicionarOperacional (int id)
         {
-            incendio.operacionaisIDs.Remove(id);
-            return incendio;
+            operacionaisIDs.Add(id);
+            return true;
         }
 
-        public static Incendio AdicionarViatura(Incendio incendio, int id)
+        public bool RemoverOperacional(int id)
         {
-            incendio.viaturasIDs.Add(id);
-            return incendio;
+            operacionaisIDs.Remove(id);
+            return true;
         }
 
-        public static Incendio RemoverViatura(Incendio incendio, int id)
+        public bool AdicionarViatura(int id)
         {
-            incendio.viaturasIDs.Remove(id);
-            return incendio;
+            viaturasIDs.Add(id);
+            return true;
+        }
+
+        public bool RemoverViatura(int id)
+        {
+            viaturasIDs.Remove(id);
+            return true;
+        }
+
+        public void MostrarIncendio()
+        {
+            Console.WriteLine(id);
+            Console.WriteLine(estado);
+            Console.WriteLine(tipo);
         }
 
     }

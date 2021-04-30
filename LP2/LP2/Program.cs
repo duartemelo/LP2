@@ -10,7 +10,19 @@ namespace LP2
     {
         static void Main(string[] args)
         {
+            Incendios incendios = new Incendios();
+            float[] coordenadas = { -100, 100 };
+            incendios.CriarNovoIncendio("florestal", coordenadas);
+            incendios.CriarNovoIncendio("urbano", coordenadas);
 
+            incendios.EncontrarIncendioId(0).DefinirEstadoIncendio("inativo");
+
+            incendios.MostrarIncendios();
+
+            
+
+            Console.ReadKey();
+            
         }
     }
 }

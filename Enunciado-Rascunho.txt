@@ -1,5 +1,4 @@
-Sistema que permita a gestão de ocorrências de incêndios florestais e outras
-catástrofes naturais;
+Sistema que permita a gestão de ocorrências de incêndios (florestais ou nao florestais).
 
 Relatório
 Git
