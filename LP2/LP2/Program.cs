@@ -10,6 +10,7 @@ namespace LP2
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
