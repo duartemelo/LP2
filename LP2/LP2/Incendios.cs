@@ -1,4 +1,9 @@
-﻿using System;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,47 +11,44 @@ using System.Threading.Tasks;
 
 namespace LP2
 {
+    
     class Incendios
     {
-        //Atributos
-        static int numIncendios;
-        static List<Incendio> incendios;
+        #region Atributos
+        private static int numIncendios;
+        private static List<Incendio> incendios;
+        #endregion
 
 
 
-
-        //Construtor
+        #region Construtores
         public Incendios()
         {
             numIncendios = 0;
             incendios = new List<Incendio>();
         }
+        #endregion
 
 
 
 
-        //Propriedades
+        #region Propriedades
         public int NumIncendios
         {
             get => numIncendios;
         }
+        #endregion
 
 
 
 
 
-        //Métodos
+        #region Metodos
         public bool CriarNovoIncendio (string tipo, float[] coordenadas)
         {
             
             //criar incendio
-            Incendio novoIncendio = new Incendio();
-            //definir id incendio
-            novoIncendio.Id = numIncendios;
-            //definir tipo incendio
-            novoIncendio.Tipo = tipo;
-            //definir coordenadas
-            novoIncendio.Coordenadas = coordenadas;
+            Incendio novoIncendio = new Incendio(numIncendios, tipo, coordenadas);
 
             //adicionar incendio a lista
             incendios.Add(novoIncendio);
@@ -80,49 +82,45 @@ namespace LP2
                 incendio.MostrarIncendio();
             }
         }
+        #endregion
 
-        public Incendio EncontrarIncendioId(int id)
-        {
-            Incendio incendioEncontrado = null;
-            foreach(Incendio incendio in incendios)
-            {
-                if (incendio.Id == id)
-                {
-                    incendioEncontrado = incendio;
-                }
-            }
-            return incendioEncontrado;
-        }
+
 
 
     }
 
     class Incendio
     {
-        int id;
-        string tipo;
-        float[] coordenadas;
-        string estado;
+        #region Atributos
+        private int id;
+        private string tipo;
+        private float[] coordenadas;
+        private string estado;
         //inicio , tempo
         //fim , tempo
-        List<int> operacionaisIDs;
-        List<int> viaturasIDs;
+        private List<int> operacionaisIDs;
+        private List<int> viaturasIDs;
+        #endregion
 
-        public Incendio()
+        #region Construtores
+        public Incendio(int id, string tipo, float[] coordenadas)
         {
+            this.id = id;
             estado = "ativo";
-            coordenadas = new float[2];
+            this.coordenadas = coordenadas;
+            this.tipo = tipo;
             operacionaisIDs = new List<int>();
             viaturasIDs = new List<int>();
         }
+        #endregion
 
-        
 
+        #region Propriedades
         public int Id
         {
             get => id;
-            set => id = value;
         }
+        
 
         public string Tipo
         {
@@ -141,12 +139,16 @@ namespace LP2
             get => estado;
             set => estado = value;
         }
+        #endregion
 
-        public bool DefinirEstadoIncendio(string estadoRecebido)
+
+        #region Metodos
+        //neste momento está inutil porque existe o set
+        /*public bool DefinirEstadoIncendio(string estadoRecebido)
         {
             estado = estadoRecebido;
             return true;
-        }
+        }*/
 
 
         public bool AdicionarOperacional (int id)
@@ -178,7 +180,9 @@ namespace LP2
             Console.WriteLine(id);
             Console.WriteLine(estado);
             Console.WriteLine(tipo);
+            Console.WriteLine(coordenadas[0].ToString() + " " + coordenadas[1].ToString());
         }
+        #endregion
 
     }
 }

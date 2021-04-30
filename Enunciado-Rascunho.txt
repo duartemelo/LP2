@@ -8,7 +8,6 @@ Trello
 Diagrama de classes
 Implementaçao essencial das classes
 Definiçao das estruturas de dados a utilizar
-Estruturaçao do projeto em camadas
 Relatorio até à data 
 
 
