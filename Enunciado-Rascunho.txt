@@ -1,0 +1,16 @@
+Sistema que permita a gestão de ocorrências de incêndios florestais e outras
+catástrofes naturais;
+
+Relatório
+Git
+Trello
+
+1ª fase:
+Diagrama de classes
+Implementaçao essencial das classes
+Definiçao das estruturas de dados a utilizar
+Estruturaçao do projeto em camadas
+Relatorio até à data 
+
+
+
