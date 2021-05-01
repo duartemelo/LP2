@@ -42,6 +42,29 @@ namespace LP2
             return true;
         }
 
+        public bool RemoverViaturaId(int id)
+        {
+            foreach(Viatura viatura in viaturas)
+            {
+                if(viatura.Id == id)
+                {
+                    if(RemoverViatura(viatura) == true)
+                    {
+                        return true;
+                    }
+                    //não faz sentido continuar o foreach
+                    break;
+                    
+                }
+            }
+            return false;
+        }
+
+        public bool RemoverViatura(Viatura viatura)
+        {
+            return viaturas.Remove(viatura);
+        }
+
         public int NumeroViaturasPorTipo(string tipo)
         {
             int viaturasPorTipo = 0;

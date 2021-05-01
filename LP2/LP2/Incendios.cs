@@ -11,7 +11,11 @@ using System.Threading.Tasks;
 
 namespace LP2
 {
-    
+    enum Estado
+    {
+        Ativo,
+        Extinto
+    }
     class Incendios
     {
         #region Atributos
@@ -59,7 +63,9 @@ namespace LP2
             return true;
         }
 
-        public int NumeroIncendiosEstado(string estado)
+        //função para confirmar se incendio existe
+
+        public int NumeroIncendiosEstado(Estado estado)
         {
             int incendiosPorEstado = 0;
 
@@ -95,7 +101,7 @@ namespace LP2
         private int id;
         private string tipo;
         private float[] coordenadas;
-        private string estado;
+        private Estado estado;
         //inicio , tempo
         //fim , tempo
         private List<int> operacionaisIDs;
@@ -106,7 +112,7 @@ namespace LP2
         public Incendio(int id, string tipo, float[] coordenadas)
         {
             this.id = id;
-            estado = "ativo";
+            estado = LP2.Estado.Ativo;
             this.coordenadas = coordenadas;
             this.tipo = tipo;
             operacionaisIDs = new List<int>();
@@ -134,7 +140,7 @@ namespace LP2
             set => coordenadas = value;
         }
 
-        public string Estado
+        public Estado Estado
         {
             get => estado;
             set => estado = value;

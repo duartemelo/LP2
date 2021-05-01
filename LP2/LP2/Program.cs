@@ -37,9 +37,16 @@ namespace LP2
             Viaturas viaturas = new Viaturas();
 
             //como criar viatura sem matricula? por exemplo helicoptero (arranjar solução)
+            //passar corporacao como parametro?
             viaturas.CriarNovaViatura(0, "carro", "00-AA-00", "Opel", "Corsa", "ativo");
+            viaturas.CriarNovaViatura(0, "carro", "01-BB-01", "Fiat", "Punto", "ativo");
             viaturas.MostrarViaturas();
+            viaturas.RemoverViaturaId(0);
+            viaturas.MostrarViaturas();
+
             Console.ReadKey();
+
+            
 
             /*Classes que faltam:
              * Operacionais
