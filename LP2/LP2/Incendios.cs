@@ -76,6 +76,7 @@ namespace LP2
             Console.WriteLine("incendio add");
 
             //incrementar incendios
+            //test
             numIncendios++;
             return true;
         }
