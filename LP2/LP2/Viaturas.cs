@@ -64,27 +64,45 @@ namespace LP2
             return false;
         }
 
+        /// <summary>
+        /// Remove uma viatura da lista de viaturas pelo ID
+        /// </summary>
+        /// <param name="id">ID da viatura a ser removida</param>
+        /// <returns></returns>
         public bool RemoverViaturaId(int id)
+        {
+            if(RemoverViatura(EncontrarViaturaId(id)) == true)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Remove uma viatura da lista de viaturas
+        /// </summary>
+        /// <param name="viatura">Viatura a ser removida</param>
+        /// <returns></returns>
+        public bool RemoverViatura(Viatura viatura)
+        {
+            return viaturas.Remove(viatura);
+        }
+
+        /// <summary>
+        /// Encontra uma viatura a partir do seu ID
+        /// </summary>
+        /// <param name="id">ID da viatura</param>
+        /// <returns></returns>
+        public Viatura EncontrarViaturaId(int id)
         {
             foreach(Viatura viatura in viaturas)
             {
                 if(viatura.Id == id)
                 {
-                    if(RemoverViatura(viatura) == true)
-                    {
-                        return true;
-                    }
-                    //não faz sentido continuar o foreach
-                    break;
-                    
+                    return viatura;
                 }
             }
-            return false;
-        }
-
-        public bool RemoverViatura(Viatura viatura)
-        {
-            return viaturas.Remove(viatura);
+            return null;
         }
 
         public int NumeroViaturasPorTipo(string tipo)

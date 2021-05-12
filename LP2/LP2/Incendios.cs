@@ -76,7 +76,6 @@ namespace LP2
             Console.WriteLine("incendio add");
 
             //incrementar incendios
-            //test
             numIncendios++;
             return true;
         }
@@ -199,29 +198,44 @@ namespace LP2
             return true;
         }*/
 
-
+        /// <summary>
+        /// Adiciona um operacional a um incêndio
+        /// </summary>
+        /// <param name="id">ID do operacional</param>
+        /// <returns></returns>
         public bool AdicionarOperacional (int id)
         {
+            if (operacionaisIDs.Contains(id))
+            {
+                return false;
+            }
             operacionaisIDs.Add(id);
             return true;
         }
 
+        /// <summary>
+        /// Remover operacional de um incêndio
+        /// </summary>
+        /// <param name="id">ID do operacional</param>
+        /// <returns></returns>
         public bool RemoverOperacional(int id)
         {
-            operacionaisIDs.Remove(id);
-            return true;
+            return operacionaisIDs.Remove(id);
         }
 
         public bool AdicionarViatura(int id)
         {
+            if (viaturasIDs.Contains(id))
+            {
+                return false;
+            }
             viaturasIDs.Add(id);
             return true;
         }
 
         public bool RemoverViatura(int id)
         {
-            viaturasIDs.Remove(id);
-            return true;
+            return viaturasIDs.Remove(id);
         }
 
         public void MostrarIncendio()
