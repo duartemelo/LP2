@@ -48,23 +48,62 @@ namespace LP2
 
 
         #region Metodos
-        public bool CriarNovoIncendio (string tipo, float[] coordenadas)
+
+        /// <summary>
+        /// Função para criar um novo incêndio
+        /// </summary>
+        /// <param name="tipo"></param>
+        /// <param name="coordenadas"></param>
+        /// <param name="estado">Este argumento não tem de ser obrigatoriamente passado, e caso não seja, o default é ativo.</param>
+        /// <returns></returns>
+        public bool CriarNovoIncendio (string tipo, float[] coordenadas, Estado estado = Estado.Ativo)
         {
             
             //criar incendio
-            Incendio novoIncendio = new Incendio(numIncendios, tipo, coordenadas);
+            Incendio novoIncendio = new Incendio(numIncendios, tipo, coordenadas, estado);
+
+            //verificar se coordenadas ja existem (não faria sentido repetir o incêndio)
+            //a segunda confirmação, permite que com um incendio ativo, adicionemos um extinto (passado) nesse mesmo local
+            if (VerificarCoordenadas(coordenadas) == true && novoIncendio.Estado != Estado.Extinto)
+            {
+                //Será boa pratica Console.WriteLine aqui dentro?
+                Console.WriteLine("Estas coordenadas já estão associadas a algum incêndio ativo.");
+                return false;
+            }
 
             //adicionar incendio a lista
             incendios.Add(novoIncendio);
-
+            Console.WriteLine("incendio add");
 
             //incrementar incendios
             numIncendios++;
             return true;
         }
 
-        //função para confirmar se incendio existe
+        /// <summary>
+        /// Verificar se as coordenadas já existem nos incêndios
+        /// </summary>
+        /// <param name="coordenadas"></param>
+        /// <returns></returns>
+        public bool VerificarCoordenadas(float[] coordenadas)
+        {
+            foreach (Incendio incendio in incendios){
+                if ((incendio.Coordenadas == coordenadas) && incendio.Estado != Estado.Extinto)
+                {
+                    //caso as coordenadas já existam e o incendio não esteja extinto
+                    return true;
+                }
+            }
+            return false;
+        }
 
+        
+        
+        /// <summary>
+        /// Função que devolve o número de incêndios por estado
+        /// </summary>
+        /// <param name="estado"></param>
+        /// <returns></returns>
         public int NumeroIncendiosEstado(Estado estado)
         {
             int incendiosPorEstado = 0;
@@ -80,7 +119,10 @@ namespace LP2
 
             return incendiosPorEstado;
         }
-
+         
+        /// <summary>
+        /// Mostra todos os incêndios
+        /// </summary>
         public void MostrarIncendios()
         {
             foreach (Incendio incendio in incendios)
@@ -109,10 +151,10 @@ namespace LP2
         #endregion
 
         #region Construtores
-        public Incendio(int id, string tipo, float[] coordenadas)
+        public Incendio(int id, string tipo, float[] coordenadas, Estado estado)
         {
             this.id = id;
-            estado = LP2.Estado.Ativo;
+            this.estado = estado;
             this.coordenadas = coordenadas;
             this.tipo = tipo;
             operacionaisIDs = new List<int>();

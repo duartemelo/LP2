@@ -37,9 +37,31 @@ namespace LP2
         public bool CriarNovaViatura(int corporacaoID, string tipo, string matricula, string marca, string modelo, string estado)
         {
             Viatura novaViatura = new Viatura(numViaturas, corporacaoID, tipo, matricula, marca, modelo, estado);
+
+            if (VerificarSeJaExiste(matricula) == true)
+            {
+                //Console.WriteLine aqui será boa prática??
+                Console.WriteLine("Esta viatura já existe, por favor, experimente transferir a mesma de corporação.");
+                return false;
+            }
+
             viaturas.Add(novaViatura);
             numViaturas++;
             return true;
+        }
+
+        public bool VerificarSeJaExiste(string matricula)
+        {
+
+            foreach(Viatura viatura in viaturas)
+            {
+                if (viatura.Matricula == matricula)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         public bool RemoverViaturaId(int id)

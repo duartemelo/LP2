@@ -17,10 +17,16 @@ namespace LP2
         {
             Incendios incendios = new Incendios();
             float[] coordenadas = { -100, 100 };
-            incendios.CriarNovoIncendio("florestal", coordenadas);
-            incendios.CriarNovoIncendio("urbano", coordenadas);
+            float[] coordenadas2 = { -200, 200 };
 
-            
+            incendios.CriarNovoIncendio("florestal", coordenadas);
+
+
+
+            incendios.CriarNovoIncendio("florestal", coordenadas, Estado.Extinto);
+
+            incendios.CriarNovoIncendio("florestal", coordenadas2);
+
 
             incendios.MostrarIncendios();
 
