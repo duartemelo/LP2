@@ -81,7 +81,7 @@ namespace LP2
         }
 
         /// <summary>
-        /// Verificar se as coordenadas já existem nos incêndios
+        /// Verificar se as coordenadas já existem nos incêndios (possivelmente, criar uma função generica e juntar a Viaturas.VerificarSeJaExiste, etc.
         /// </summary>
         /// <param name="coordenadas"></param>
         /// <returns></returns>
