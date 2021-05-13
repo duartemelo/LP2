@@ -44,7 +44,11 @@ namespace LP2
                 Console.WriteLine("Esta viatura já existe, por favor, experimente transferir a mesma de corporação.");
                 return false;
             }
-
+            if (Corporacoes.VerExisteCorporacaoID(corporacaoID) == false)
+            {
+                Console.WriteLine("Corporação não existe.");
+                return false;
+            }
             viaturas.Add(novaViatura);
             numViaturas++;
             return true;

@@ -66,6 +66,25 @@ namespace LP2
                 corporacao.MostrarCorporacao();
             }
         }
+
+        /// <summary>
+        /// Verificar se existe uma corporação a partir de um ID (util para adicionar viaturas, por exemplo)
+        /// </summary>
+        /// <param name="id">ID da corporaçãp</param>
+        /// <returns></returns>
+        public static bool VerExisteCorporacaoID(int id)
+        {
+            foreach(Corporacao corporacao in corporacoes)
+            {
+                if (corporacao.Id == id)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+
         #endregion
 
 

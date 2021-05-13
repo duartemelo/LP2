@@ -47,8 +47,8 @@ namespace LP2
             viaturas.CriarNovaViatura(0, "carro", "00-AA-00", "Opel", "Corsa", "ativo");
             viaturas.CriarNovaViatura(0, "carro", "01-BB-01", "Fiat", "Punto", "ativo");
             viaturas.MostrarViaturas();
-            viaturas.RemoverViaturaId(0);
-            viaturas.MostrarViaturas();
+            //viaturas.RemoverViaturaId(0);
+            //viaturas.MostrarViaturas();
 
             Console.ReadKey();
 

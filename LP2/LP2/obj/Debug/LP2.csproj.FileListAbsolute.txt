@@ -5,3 +5,10 @@ D:\IPCA\TrabalhoLP2\LP2\LP2\obj\Debug\LP2.csprojAssemblyReference.cache
 D:\IPCA\TrabalhoLP2\LP2\LP2\obj\Debug\LP2.csproj.CoreCompileInputs.cache
 D:\IPCA\TrabalhoLP2\LP2\LP2\obj\Debug\LP2.exe
 D:\IPCA\TrabalhoLP2\LP2\LP2\obj\Debug\LP2.pdb
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\LP2.exe.config
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\LP2.exe
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\LP2.pdb
+C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.csprojAssemblyReference.cache
+C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.exe
+C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.pdb
