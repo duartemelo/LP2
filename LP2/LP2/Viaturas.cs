@@ -38,6 +38,7 @@ namespace LP2
 
         //ALTERAR METODO PARA -> InserirViatura(Viatura viatura);
         //CRIAR METODO NA CLASS VIATURA -> CriarNovaViatura(args (estes de baixo));
+        //fazer o resto nas restantes classes! (boa pratica)
         public bool CriarNovaViatura(int corporacaoID, string tipo, string matricula, string marca, string modelo, string estado)
         {
             Viatura novaViatura = new Viatura(numViaturas, corporacaoID, tipo, matricula, marca, modelo, estado);
