@@ -38,7 +38,7 @@ namespace LP2
         {
             Viatura novaViatura = new Viatura(numViaturas, corporacaoID, tipo, matricula, marca, modelo, estado);
 
-            if (VerificarSeJaExiste(matricula) == true)
+            if (matricula != null && VerificarSeJaExiste(matricula) == true)
             {
                 //Console.WriteLine aqui será boa prática??
                 Console.WriteLine("Esta viatura já existe, por favor, experimente transferir a mesma de corporação.");
@@ -205,11 +205,11 @@ namespace LP2
             Console.WriteLine(id);
             Console.WriteLine(corporacaoID);
             Console.WriteLine(tipo);
-            Console.WriteLine(matricula);
+            if (matricula != null) Console.WriteLine(matricula);
             Console.WriteLine(marca);
             Console.WriteLine(modelo);
             Console.WriteLine(estado);
-        }
+            }
         #endregion
     }
 }
