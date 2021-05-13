@@ -34,11 +34,15 @@ namespace LP2
         #endregion
 
         #region Metodos
+
+
+        //ALTERAR METODO PARA -> InserirViatura(Viatura viatura);
+        //CRIAR METODO NA CLASS VIATURA -> CriarNovaViatura(args (estes de baixo));
         public bool CriarNovaViatura(int corporacaoID, string tipo, string matricula, string marca, string modelo, string estado)
         {
             Viatura novaViatura = new Viatura(numViaturas, corporacaoID, tipo, matricula, marca, modelo, estado);
 
-            if (matricula != null && VerificarSeJaExiste(matricula) == true)
+            if (matricula != null && VerificarSeJaExisteMatricula(matricula) == true)
             {
                 //Console.WriteLine aqui será boa prática??
                 Console.WriteLine("Esta viatura já existe, por favor, experimente transferir a mesma de corporação.");
@@ -54,7 +58,7 @@ namespace LP2
             return true;
         }
 
-        public bool VerificarSeJaExiste(string matricula)
+        public bool VerificarSeJaExisteMatricula(string matricula)
         {
 
             foreach(Viatura viatura in viaturas)
