@@ -1,0 +1,9 @@
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\bin\Debug\netstandard2.0\CorporacaoBO.deps.json
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\bin\Debug\netstandard2.0\CorporacaoBO.dll
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\bin\Debug\netstandard2.0\CorporacaoBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\obj\Debug\netstandard2.0\CorporacaoBO.AssemblyInfoInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\obj\Debug\netstandard2.0\CorporacaoBO.AssemblyInfo.cs
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\obj\Debug\netstandard2.0\CorporacaoBO.csproj.CoreCompileInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\obj\Debug\netstandard2.0\CorporacaoBO.dll
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\obj\Debug\netstandard2.0\CorporacaoBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\CorporacoesBO\obj\Debug\netstandard2.0\CorporacaoBO.csprojAssemblyReference.cache

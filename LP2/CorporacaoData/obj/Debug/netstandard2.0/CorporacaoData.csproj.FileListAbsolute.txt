@@ -1,0 +1,14 @@
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoData.deps.json
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoData.dll
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoData.pdb
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoBO.dll
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoOutput.dll
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoOutput.pdb
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.csprojAssemblyReference.cache
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.AssemblyInfoInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.AssemblyInfo.cs
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.csproj.CoreCompileInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.csproj.CopyComplete
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.dll
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.pdb
