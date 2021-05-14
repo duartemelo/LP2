@@ -1,10 +1,10 @@
 # LP2
 Trabalho prático da cadeira Linguagens de Programação 2, IPCA
 
-###Descrição
+### Descrição
 Este trabalho foca-se na análise de problemas reais simples e a aplicação de Paradigma Orientado a Objetos (POO) na implementação de possíveis soluções.
 
-###Objetivos
+### Objetivos
 - Identificar as principais entidades (classes) envolvidas
 - Identificar as estruturas para suportar os dados e implementar os principais processos capazes de suportar soluções para estes problemas
 - Consolidar conceitos basilares de POO
@@ -13,12 +13,12 @@ Este trabalho foca-se na análise de problemas reais simples e a aplicação de 
 - Potenciar a experiência no desenvolvimento de software
 - Assimilar o conteúdo da Unidade Curricular
 
-###Tema escolhido
+### Tema escolhido
 - Sistema que permita a gestão de ocorrências de incêndios florestais e outras catástrofes naturais;
 Em relação ao tema, decidi focar-me na área dos incêndios e no que os rodeia (operacionais, corporações, viaturas, etc.).
 
 
-####Links
-IPCA - https://ipca.pt/
-EST - https://est.ipca.pt/
-LinkedIn - https://www.linkedin.com/in/duarteribeiromelo/
+#### Links
+- IPCA - https://ipca.pt/ 
+- EST - https://est.ipca.pt/ 
+- LinkedIn - https://www.linkedin.com/in/duarteribeiromelo/
