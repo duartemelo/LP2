@@ -15,9 +15,9 @@ namespace CorporacaoOutput
 
         public static void MostraCorporacoes(List<Corporacao> corporacoes)
         {
-            foreach(Corporacao corporacao in corporacoes)
+            foreach (Corporacao corporacao in corporacoes)
             {
-                MostraCorporacao(corporacao);
+                 MostraCorporacao(corporacao);
             }
             
         }

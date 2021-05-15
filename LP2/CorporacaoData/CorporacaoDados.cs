@@ -11,7 +11,7 @@ namespace CorporacaoData
         #region Attributes
 
         private static int numCorporacoes = 0;
-        private static List<Corporacao> corporacoes;
+        private static List<Corporacao> corporacoes = new List<Corporacao>();
 
 
         #endregion

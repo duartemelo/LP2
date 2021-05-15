@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP2", "LP2\LP2.csproj", "{ECB554E6-CC0E-4689-A0B8-93192CFE1B94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporacaoBO", "CorporacoesBO\CorporacaoBO.csproj", "{7D6CD9DB-74EE-48F5-9CDA-172DDA3E4DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporacaoBO", "CorporacoesBO\CorporacaoBO.csproj", "{7D6CD9DB-74EE-48F5-9CDA-172DDA3E4DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporacaoBR", "CorporacaoBR\CorporacaoBR.csproj", "{2F29DC35-C669-44CA-95B9-BC5D0CEFC983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporacaoBR", "CorporacaoBR\CorporacaoBR.csproj", "{2F29DC35-C669-44CA-95B9-BC5D0CEFC983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporacaoData", "CorporacaoData\CorporacaoData.csproj", "{F8EC875B-2DFA-484C-B571-44C1463983D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporacaoData", "CorporacaoData\CorporacaoData.csproj", "{F8EC875B-2DFA-484C-B571-44C1463983D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorporacaoOutput", "CorporacaoOutput\CorporacaoOutput.csproj", "{50244280-E9D1-4D43-992F-C4F5A7E7D847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorporacaoOutput", "CorporacaoOutput\CorporacaoOutput.csproj", "{50244280-E9D1-4D43-992F-C4F5A7E7D847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Corporacao", "Corporacao", "{397B04E8-7C40-432E-8F91-A5E64B314787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D6CD9DB-74EE-48F5-9CDA-172DDA3E4DDE} = {397B04E8-7C40-432E-8F91-A5E64B314787}
+		{2F29DC35-C669-44CA-95B9-BC5D0CEFC983} = {397B04E8-7C40-432E-8F91-A5E64B314787}
+		{F8EC875B-2DFA-484C-B571-44C1463983D0} = {397B04E8-7C40-432E-8F91-A5E64B314787}
+		{50244280-E9D1-4D43-992F-C4F5A7E7D847} = {397B04E8-7C40-432E-8F91-A5E64B314787}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73FA655D-2344-4000-9395-D097A1941D4B}

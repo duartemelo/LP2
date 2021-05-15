@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Corporacoes.cs" />
     <Compile Include="Incendios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,6 +50,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CorporacaoBR\CorporacaoBR.csproj">
+      <Project>{2f29dc35-c669-44ca-95b9-bc5d0cefc983}</Project>
+      <Name>CorporacaoBR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CorporacoesBO\CorporacaoBO.csproj">
+      <Project>{7d6cd9db-74ee-48f5-9cda-172dda3e4dde}</Project>
+      <Name>CorporacaoBO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

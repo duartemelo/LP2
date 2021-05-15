@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CorporacaoBO;
+using CorporacaoBR;
 
 namespace LP2
 {
@@ -15,7 +17,7 @@ namespace LP2
     {
         static void Main(string[] args)
         {
-            Incendios incendios = new Incendios();
+            /*Incendios incendios = new Incendios();
             float[] coordenadas = { -100, 100 };
             float[] coordenadas2 = { -200, 200 };
 
@@ -30,15 +32,21 @@ namespace LP2
 
             incendios.MostrarIncendios();
 
-            Console.WriteLine();
+            Console.WriteLine();*/
 
-            Corporacoes corporacoes = new Corporacoes();
-            corporacoes.CriarNovaCorporacao("Maximinos", "Bombeiros Voluntarios");
-            corporacoes.CriarNovaCorporacao("Gaia", "Bombeiros Sapadores");
+            Corporacao corporacao = new Corporacao();
+            corporacao.Tipo = "voluntarios";
+            corporacao.Freguesia = "Maximinos";
+            CorporacaoRegras.InsereCorporacao(corporacao);
 
-            corporacoes.MostrarCorporacoes();
+            CorporacaoRegras.MostraCorporacoes();
 
-            Console.WriteLine();
+            Console.ReadKey();
+            
+
+            
+
+            /*Console.WriteLine();
 
             Viaturas viaturas = new Viaturas();
 
@@ -59,6 +67,8 @@ namespace LP2
              * Operacionais
              * Operacional
              */
+
+            
             
         }
     }

@@ -12,3 +12,12 @@ C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.csprojAssemblyReference.cache
 C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.csproj.CoreCompileInputs.cache
 C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.exe
 C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoBO.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoBR.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoData.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoOutput.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoBR.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoData.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoOutput.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\obj\Debug\LP2.csproj.CopyComplete
