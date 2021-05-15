@@ -22,10 +22,7 @@ namespace CorporacaoOutput
             
         }
 
-        public static void EscreveErro(string erro)
-        {
-            Console.WriteLine("Erro! " + erro);
-        }
+        
 
         
     }

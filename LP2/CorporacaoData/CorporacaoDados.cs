@@ -11,6 +11,7 @@ namespace CorporacaoData
         #region Attributes
 
         private static int numCorporacoes = 0;
+        private static int numIDs = numCorporacoes;
         private static List<Corporacao> corporacoes = new List<Corporacao>();
 
 
@@ -33,12 +34,12 @@ namespace CorporacaoData
 
         public static bool AddCorporacao(Corporacao c) 
         {
-            if (VerificarCorporacaoExisteId(c.Id))
+            if (VerificarCorporacaoExiste(c.Tipo, c.Freguesia))
                 return false;
-
-            c.Id = numCorporacoes;
+            c.Id = numIDs;
             corporacoes.Add(c);
             numCorporacoes++;
+            numIDs++;
             return true;
             
         }
@@ -47,20 +48,19 @@ namespace CorporacaoData
         {
             if (corporacoes.Remove(c))
             {
-                numCorporacoes++;
+                numCorporacoes--;
                 return true;
             }
             else
-            {
                 return false;
-            }
+            
         }
 
-        public static bool VerificarCorporacaoExisteId(int id)
+        public static bool VerificarCorporacaoExiste(string tipo, string freguesia)
         {
             foreach (Corporacao corporacao in corporacoes)
             {
-                if (corporacao.Id == id)
+                if (corporacao.Tipo == tipo && corporacao.Freguesia == freguesia)
                 {
                     return true;
                 }

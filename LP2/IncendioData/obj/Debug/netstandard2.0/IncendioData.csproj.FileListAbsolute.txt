@@ -1,0 +1,12 @@
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioData.deps.json
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioData.dll
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioData.pdb
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioBO.dll
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.csprojAssemblyReference.cache
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.AssemblyInfoInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.AssemblyInfo.cs
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.csproj.CoreCompileInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.csproj.CopyComplete
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.dll
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.pdb

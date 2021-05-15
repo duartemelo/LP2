@@ -2,6 +2,7 @@
 using CorporacaoBO;
 using CorporacaoData;
 using CorporacaoOutput;
+using GeneralOutputs;
 
 namespace CorporacaoBR
 {
@@ -14,7 +15,7 @@ namespace CorporacaoBR
                 if (CorporacaoValidaParaInserir(c))
                     return CorporacaoDados.AddCorporacao(c);
                 else
-                    CorporacaoEscreve.EscreveErro("Corporação não se encontra válida para inserir!");
+                    GeneralEscreve.EscreveErro("Corporação não se encontra válida para inserir!");
                     return false;
             }
             catch (Exception e)

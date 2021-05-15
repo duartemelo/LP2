@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qgrF+vz16e+RbIjBhd8wn4QtaefUt7VXdiz8rDAiM1GofPModgG7R33zZNmFl4DTHZwZRjU8jJnCcdeQmInCNg==",
+  "success": true,
+  "projectFilePath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioData\\IncendioData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

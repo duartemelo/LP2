@@ -62,6 +62,16 @@
         "runtime": {
           "bin/placeholder/CorporacaoOutput.dll": {}
         }
+      },
+      "GeneralOutputs/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GeneralOutputs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeneralOutputs.dll": {}
+        }
       }
     }
   },
@@ -224,6 +234,11 @@
       "type": "project",
       "path": "../CorporacaoOutput/CorporacaoOutput.csproj",
       "msbuildProject": "../CorporacaoOutput/CorporacaoOutput.csproj"
+    },
+    "GeneralOutputs/1.0.0": {
+      "type": "project",
+      "path": "../GeneralOutputs/GeneralOutputs.csproj",
+      "msbuildProject": "../GeneralOutputs/GeneralOutputs.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -231,6 +246,7 @@
       "CorporacaoBO >= 1.0.0",
       "CorporacaoData >= 1.0.0",
       "CorporacaoOutput >= 1.0.0",
+      "GeneralOutputs >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -269,6 +285,9 @@
             },
             "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
               "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj"
             }
           }
         }
