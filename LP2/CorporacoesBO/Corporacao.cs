@@ -1,8 +1,14 @@
-﻿using System;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+using System;
 
 namespace CorporacaoBO
 {
-
+    /// <summary>
+    /// Class Corporação -> esta class apenas é responsável pela criação do objeto, devolver e alterar dados do mesmo.
+    /// </summary>
     public class Corporacao
     {
         #region Attributes
