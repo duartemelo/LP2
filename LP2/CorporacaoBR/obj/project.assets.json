@@ -230,6 +230,7 @@
     ".NETStandard,Version=v2.0": [
       "CorporacaoBO >= 1.0.0",
       "CorporacaoData >= 1.0.0",
+      "CorporacaoOutput >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -262,6 +263,9 @@
           "projectReferences": {
             "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\CorporacaoData.csproj": {
               "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\CorporacaoData.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj"
             },
             "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
               "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
