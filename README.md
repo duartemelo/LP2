@@ -19,6 +19,7 @@ Em relação ao tema, decidi focar-me na área dos incêndios e no que os rodeia
 
 
 #### Links
+- Trello - https://trello.com/b/NP5Bhka1/lp2
 - IPCA - https://ipca.pt/ 
 - EST - https://est.ipca.pt/ 
 - LinkedIn - https://www.linkedin.com/in/duarteribeiromelo/

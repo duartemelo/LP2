@@ -27,7 +27,7 @@ namespace CorporacaoOutput
         /// <summary>
         /// Mostra uma lista de corporações
         /// </summary>
-        /// <param name="corporacoes">Recebe a lista de corporações</param>
+        /// <param name="corporacoes">Recebe a lista de corporações para mostrar</param>
         public static void MostraCorporacoes(List<Corporacao> corporacoes)
         {
             foreach (Corporacao corporacao in corporacoes)

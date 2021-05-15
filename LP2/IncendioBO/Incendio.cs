@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+using System;
 using System.Collections.Generic;
 
 namespace IncendioBO
@@ -8,6 +12,9 @@ namespace IncendioBO
         Extinto,
         Ativo
     }
+    /// <summary>
+    /// Class incêndio -> esta class apenas é responsável pela criação do objeto, devolver e alterar dados do mesmo.
+    /// </summary>
     public class Incendio
     {
        
@@ -27,6 +34,9 @@ namespace IncendioBO
 
         #region Constructors
 
+        /// <summary>
+        /// Cria as listas pertencentes a cada objeto incêndio
+        /// </summary>
         public Incendio()
         {
             operacionaisIDs = new List<int>();
