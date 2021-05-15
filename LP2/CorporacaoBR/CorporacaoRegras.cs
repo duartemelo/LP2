@@ -15,6 +15,7 @@ namespace CorporacaoBR
     public class CorporacaoRegras
     {
         /// <summary>
+        /// Insere uma corporação às corporações
         /// Verifica se a corporação está válida para ser inserida e depois chama o método AddCorporacao, presente na CorporacaoData (esta DLL, CorporacaoRegras, é a unica que consegue aceder à CorporacaoData)
         /// </summary>
         /// <param name="c">Corporação</param>
