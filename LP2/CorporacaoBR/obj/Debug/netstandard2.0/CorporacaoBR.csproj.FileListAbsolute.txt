@@ -14,3 +14,5 @@ D:\IPCA\TrabalhoLP2\LP2\CorporacaoBR\obj\Debug\netstandard2.0\CorporacaoBR.cspro
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoBR\obj\Debug\netstandard2.0\CorporacaoBR.csproj.CopyComplete
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoBR\obj\Debug\netstandard2.0\CorporacaoBR.dll
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoBR\obj\Debug\netstandard2.0\CorporacaoBR.pdb
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoBR\bin\Debug\netstandard2.0\GeneralOutputs.dll
+D:\IPCA\TrabalhoLP2\LP2\CorporacaoBR\bin\Debug\netstandard2.0\GeneralOutputs.pdb

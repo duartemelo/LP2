@@ -50,6 +50,20 @@ namespace CorporacaoBO
 
         #endregion
 
+        #region Overrides, Operators
+
+        public static bool operator ==(Corporacao c1, Corporacao c2)
+        {
+            return (c1.Tipo == c2.Tipo && c1.Freguesia == c2.Freguesia);
+        }
+
+        public static bool operator != (Corporacao c1, Corporacao c2)
+        {
+            return !(c1 == c2);
+        }
+
+        #endregion
+
         #region Methods
 
         #endregion

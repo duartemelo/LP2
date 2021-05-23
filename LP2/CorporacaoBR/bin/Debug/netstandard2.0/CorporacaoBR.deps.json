@@ -12,6 +12,7 @@
           "CorporacaoBO": "1.0.0",
           "CorporacaoData": "1.0.0",
           "CorporacaoOutput": "1.0.0",
+          "GeneralOutputs": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -44,6 +45,11 @@
         },
         "runtime": {
           "CorporacaoOutput.dll": {}
+        }
+      },
+      "GeneralOutputs/1.0.0": {
+        "runtime": {
+          "GeneralOutputs.dll": {}
         }
       }
     }
@@ -79,6 +85,11 @@
       "sha512": ""
     },
     "CorporacaoOutput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeneralOutputs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

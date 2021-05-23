@@ -43,7 +43,7 @@ namespace IncendioData
         /// <returns>True caso seja adicionado, False caso não seja adicionado</returns>
         public static bool AddIncendio(Incendio i)
         {
-            if (VerificarSePodeSerAdd(i.Coordenadas, i.Estado) == false)
+            if (VerificarSePodeSerAdd(i) == false)
             {
                 //Ao adicionar um incendio extinto, pode existir um ativo/extinto naquela loc; Ao adicionar um ativo, podem existir APENAS extintos na loc
                 return false;
@@ -88,30 +88,22 @@ namespace IncendioData
             return incendiosEstado;
         }
 
+
+
+
+
         /// <summary>
-        /// Verifica se um incêndio cumpre os requisitos para poder ser adicionado (para evitar repetidos)
+        /// Verifica se um incêndio cumpre os requisitos para poder ser adicionado (para evitar repetidos) 
         /// </summary>
-        /// <param name="coordenadas">Coordenadas do incêndio a adicionar</param>
-        /// <param name="estado">Estado do incêndio a adicionar</param>
-        /// <returns>True se puder ser adicionado, False caso não possa ser adicionado</returns>
-        public static bool VerificarSePodeSerAdd(float[] coordenadas, Estado estado)
+        /// <param name="i">Incendio a verificar</param>
+        /// <returns></returns>
+        public static bool VerificarSePodeSerAdd(Incendio i)
         {
             foreach(Incendio incendio in incendios)
             {
-                if(incendio.Coordenadas == coordenadas)
+                if (incendio == i)
                 {
-                    if (estado == Estado.Extinto)
-                    {
-                        return true;
-                    }
-                    else if(estado == Estado.Ativo && incendio.Estado == Estado.Extinto)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
+                    return false;
                 }
             }
             return true;

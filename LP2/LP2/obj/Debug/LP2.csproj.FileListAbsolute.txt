@@ -21,3 +21,5 @@ D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoBO.pdb
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoData.pdb
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoOutput.pdb
 D:\IPCA\TrabalhoLP2\LP2\LP2\obj\Debug\LP2.csproj.CopyComplete
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\GeneralOutputs.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\GeneralOutputs.pdb

@@ -1,0 +1,9 @@
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\bin\Debug\netstandard2.0\GeneralOutputs.deps.json
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\bin\Debug\netstandard2.0\GeneralOutputs.dll
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\bin\Debug\netstandard2.0\GeneralOutputs.pdb
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.csprojAssemblyReference.cache
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.AssemblyInfoInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.AssemblyInfo.cs
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.csproj.CoreCompileInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.dll
+D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.pdb

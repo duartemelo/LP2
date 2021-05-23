@@ -10,6 +10,7 @@
       "IncendioData/1.0.0": {
         "dependencies": {
           "IncendioBO": "1.0.0",
+          "IncendioOutput": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -25,6 +26,14 @@
       "IncendioBO/1.0.0": {
         "runtime": {
           "IncendioBO.dll": {}
+        }
+      },
+      "IncendioOutput/1.0.0": {
+        "dependencies": {
+          "IncendioBO": "1.0.0"
+        },
+        "runtime": {
+          "IncendioOutput.dll": {}
         }
       }
     }
@@ -50,6 +59,11 @@
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "IncendioBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IncendioOutput/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

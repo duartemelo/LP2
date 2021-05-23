@@ -10,3 +10,5 @@ D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.cspro
 D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.csproj.CopyComplete
 D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.dll
 D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.pdb
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioOutput.dll
+D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioOutput.pdb

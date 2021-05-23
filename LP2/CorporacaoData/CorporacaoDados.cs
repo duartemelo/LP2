@@ -46,7 +46,7 @@ namespace CorporacaoData
         /// <returns>Falso se não for adicionado, True se for adicionado</returns>
         public static bool AddCorporacao(Corporacao c) 
         {
-            if (VerificarCorporacaoExiste(c.Tipo, c.Freguesia))
+            if (VerificarCorporacaoExiste(c))
                 //mensagem de erro (repetida) ?
                 return false;
             c.Id = numIDs;
@@ -80,11 +80,11 @@ namespace CorporacaoData
         /// <param name="tipo">Tipo de corporação a verificar</param>
         /// <param name="freguesia">Tipo de freguesia a verificar</param>
         /// <returns>True se já existir, False se não existir</returns>
-        public static bool VerificarCorporacaoExiste(string tipo, string freguesia)
+        public static bool VerificarCorporacaoExiste(Corporacao c)
         {
             foreach (Corporacao corporacao in corporacoes)
             {
-                if (corporacao.Tipo == tipo && corporacao.Freguesia == freguesia)
+                if (c == corporacao)
                 {
                     return true;
                 }

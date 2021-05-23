@@ -75,6 +75,20 @@ namespace IncendioBO
 
         #endregion
 
+        #region Overrides, Operators
+
+        public static bool operator ==(Incendio i1, Incendio i2)
+        {
+            return (i1.Coordenadas == i2.coordenadas && i1.Tipo == i2.Tipo);
+        }
+
+        public static bool operator !=(Incendio i1, Incendio i2)
+        {
+            return !(i1 == i2);
+        }
+
+        #endregion
+
         #region Methods
 
         #endregion
