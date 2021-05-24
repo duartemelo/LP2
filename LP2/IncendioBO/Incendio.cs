@@ -24,8 +24,8 @@ namespace IncendioBO
         private string tipo;
         private float[] coordenadas;
         private Estado estado;
-        //inicio , tempo
-        //fim , tempo
+        DateTime inicioIncendio;
+        DateTime fimIncendio;
         private List<int> operacionaisIDs;
         private List<int> viaturasIDs;
 
@@ -71,6 +71,18 @@ namespace IncendioBO
         {
             get => estado;
             set => estado = value;
+        }
+
+        public DateTime InicioIncendio
+        {
+            get => inicioIncendio;
+            set => inicioIncendio = value;
+        }
+
+        public DateTime FimIncendio
+        {
+            get => fimIncendio;
+            set => fimIncendio = value;
         }
 
         #endregion

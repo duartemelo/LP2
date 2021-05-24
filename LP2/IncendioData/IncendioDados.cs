@@ -43,9 +43,8 @@ namespace IncendioData
         /// <returns>True caso seja adicionado, False caso não seja adicionado</returns>
         public static bool AddIncendio(Incendio i)
         {
-            if (VerificarSePodeSerAdd(i) == false)
+            if (VerificaSeIncendioExiste(i) == true)
             {
-                //Ao adicionar um incendio extinto, pode existir um ativo/extinto naquela loc; Ao adicionar um ativo, podem existir APENAS extintos na loc
                 return false;
             }
             
@@ -93,20 +92,20 @@ namespace IncendioData
 
 
         /// <summary>
-        /// Verifica se um incêndio cumpre os requisitos para poder ser adicionado (para evitar repetidos) 
+        /// Verifica se um incêndio já existe
         /// </summary>
-        /// <param name="i">Incendio a verificar</param>
-        /// <returns></returns>
-        public static bool VerificarSePodeSerAdd(Incendio i)
+        /// <param name="i">Incêndio a verificar</param>
+        /// <returns>True se já existe, false se não existe</returns>
+        public static bool VerificaSeIncendioExiste(Incendio i)
         {
             foreach(Incendio incendio in incendios)
             {
                 if (incendio == i)
                 {
-                    return false;
+                    return true;
                 }
             }
-            return true;
+            return false;
         }
 
         /// <summary>
