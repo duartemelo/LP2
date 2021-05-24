@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace LP2
 {
-    /*class Viaturas
+    class Viaturas
     {
         #region Atributos
         private static int numViaturas;
@@ -216,5 +216,5 @@ namespace LP2
             Console.WriteLine(estado);
             }
         #endregion
-    }*/
+    }
 }
