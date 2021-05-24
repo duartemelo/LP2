@@ -60,7 +60,7 @@ namespace CorporacaoBR
         /// <returns>True se estiver válida para inserir, False se não estiver válida para inserir</returns>
         public static bool CorporacaoValidaParaInserir(Corporacao c)
         {
-            if (c.Tipo != null && c.Freguesia != null)
+            if (c.Tipo != null && c.Freguesia != null || c != null)
             {
                 return true;
             }

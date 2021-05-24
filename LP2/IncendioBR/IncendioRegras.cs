@@ -61,7 +61,7 @@ namespace IncendioBR
         public static bool IncendioValidoParaInserir(Incendio i)
         {
             //testar como fica o Estado caso nao seja definido ao criar um incendio!
-            if (i.Coordenadas != null && i.Tipo != null)
+            if (i.Coordenadas != null && i.Tipo != null || i != null)
             {
                 return true;
             }

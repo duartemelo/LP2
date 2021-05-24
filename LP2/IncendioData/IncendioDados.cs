@@ -2,10 +2,9 @@
  * Nome: Duarte Ribeiro de Melo
  * E-mail: a21149@alunos.ipca.pt
 */
-using System;
-using System.Collections.Generic;
 using IncendioBO;
 using IncendioOutput;
+using System.Collections.Generic;
 
 namespace IncendioData
 {
