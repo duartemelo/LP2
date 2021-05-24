@@ -61,6 +61,16 @@ namespace CorporacaoBO
             return !(c1 == c2);
         }
 
+        public override bool Equals(object obj)
+        {
+            return this == (Corporacao)obj;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("ID: {0}\nFreguesia: {1}\nTipo: {2}", id, freguesia, tipo);
+        }
+
         #endregion
 
         #region Methods
