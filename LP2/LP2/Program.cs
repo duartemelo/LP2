@@ -37,7 +37,7 @@ namespace LP2
             Console.WriteLine();*/
 
             Corporacao corporacao = new Corporacao();
-            corporacao.Tipo = "voluntarios";
+            corporacao.Tipo = Tipo.Voluntarios;
             corporacao.Freguesia = "Maximinos";
             CorporacaoRegras.InsereCorporacao(corporacao);
 

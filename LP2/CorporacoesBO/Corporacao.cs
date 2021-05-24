@@ -5,6 +5,12 @@
 
 namespace CorporacaoBO
 {
+    public enum Tipo
+    {
+        Sapadores,
+        Voluntarios
+    }
+
     /// <summary>
     /// Class Corporação -> esta class apenas é responsável pela criação do objeto, devolver e alterar dados do mesmo.
     /// </summary>
@@ -13,7 +19,7 @@ namespace CorporacaoBO
         #region Attributes
         int id;
         string freguesia;
-        string tipo;   
+        Tipo tipo;   
         #endregion
 
         #region Constructors
@@ -41,7 +47,7 @@ namespace CorporacaoBO
             set => freguesia = value;
         }
 
-        public string Tipo
+        public Tipo Tipo
         {
             get => tipo;
             set => tipo = value;

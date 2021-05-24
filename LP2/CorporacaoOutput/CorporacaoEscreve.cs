@@ -19,9 +19,7 @@ namespace CorporacaoOutput
         /// <param name="c">Corporação a mostrar</param>
         public static void MostraCorporacao (Corporacao c)
         {
-            Console.WriteLine(c.Id);
-            Console.WriteLine(c.Tipo);
-            Console.WriteLine(c.Freguesia);
+            Console.WriteLine(c.ToString());
         }
 
         /// <summary>

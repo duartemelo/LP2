@@ -109,7 +109,7 @@ namespace CorporacaoData
         /// </summary>
         /// <param name="tipo">Tipo de corporação a procurar</param>
         /// <returns>Núm de corporações do tipo recebido como argumento</returns>
-        public static int NumeroCorporacoesPorTipo(string tipo)
+        public static int NumeroCorporacoesPorTipo(Tipo tipo)
         {
             int corporacoesPorTipo = 0;
             foreach(Corporacao corporacao in corporacoes)
