@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+using System;
 using IncendioBO;
 using IncendioData;
 using GeneralOutputs;

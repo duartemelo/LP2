@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Y5JEa7AZa3vMistW9nanL+nHGp7DGc7Amp4sC3WWUUs8V33Vmldi6cJHuBZVhjhPKr7GsGZgsvfwWgpifmcCg==",
+  "success": true,
+  "projectFilePath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

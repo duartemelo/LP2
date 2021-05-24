@@ -15,6 +15,12 @@ namespace LP2
 {
     class Program
     {
+        /// <summary>
+        /// Program.cs, "ponto de partida" para inicialização do programa.
+        /// Este program.cs chamará, futuramente, um menu que consequentemente realiza todas as operações necessárias.
+        /// Neste momento é responsável pela execução de testes.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             /*Incendios incendios = new Incendios();
