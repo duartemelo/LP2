@@ -84,9 +84,7 @@ namespace CorporacaoData
             foreach (Corporacao corporacao in corporacoes)
             {
                 if (c == corporacao)
-                {
                     return true;
-                }
             }
             return false;
         }
