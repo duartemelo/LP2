@@ -7,10 +7,15 @@ using System.Collections.Generic;
 
 namespace IncendioBO
 {
-    public enum Estado
+    public enum EstadoIncendio
     {
         Extinto,
         Ativo
+    }
+    public enum TipoIncendio
+    {
+        Florestal,
+        Urbano
     }
     /// <summary>
     /// Class incêndio -> esta class apenas é responsável pela criação do objeto, devolver e alterar dados do mesmo.
@@ -21,9 +26,9 @@ namespace IncendioBO
         #region Attributes
 
         private int id;
-        private string tipo;
+        private TipoIncendio tipo;
         private float[] coordenadas;
-        private Estado estado;
+        private EstadoIncendio estado;
         DateTime inicioIncendio;
         DateTime fimIncendio;
         private List<int> operacionaisIDs;
@@ -55,7 +60,7 @@ namespace IncendioBO
         }
 
 
-        public string Tipo
+        public TipoIncendio Tipo
         {
             get => tipo;
             set => tipo = value;
@@ -67,7 +72,7 @@ namespace IncendioBO
             set => coordenadas = value;
         }
 
-        public Estado Estado
+        public EstadoIncendio Estado
         {
             get => estado;
             set => estado = value;
@@ -99,6 +104,18 @@ namespace IncendioBO
             return !(i1 == i2);
         }
 
+        public override bool Equals(object obj)
+        {
+            return this == (Incendio)obj;
+        }
+
+        public override string ToString()
+        {
+            string operacionaisIDsString = string.Join(";", operacionaisIDs);
+            string viaturasIDsString = string.Join(";", viaturasIDs);
+            
+            return string.Format("ID: {0}\nTipo: {1}\nCoordenadas: {2}\nEstado: {3}\nInicio Incendio: {4}\nFim Incendio: {5}\nOperacionaisIDS: {6}\nViaturasIDS:{7}", id, tipo, coordenadas, estado, inicioIncendio, fimIncendio, operacionaisIDsString, viaturasIDsString);
+        }
         #endregion
 
         #region Methods

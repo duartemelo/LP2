@@ -75,7 +75,7 @@ namespace IncendioData
         /// </summary>
         /// <param name="estado">Estado a procurar</param>
         /// <returns>Numero de incêndios do estado procurado</returns>
-        public static int NumeroIncendiosPorEstado(Estado estado)
+        public static int NumeroIncendiosPorEstado(EstadoIncendio estado)
         {
             int incendiosEstado = 0;
             foreach (Incendio incendio in incendios)

@@ -10,3 +10,15 @@ D:\IPCA\TrabalhoLP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutp
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.csproj.CopyComplete
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.dll
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\bin\Debug\netstandard2.0\CorporacaoOutput.deps.json
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\bin\Debug\netstandard2.0\CorporacaoOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\bin\Debug\netstandard2.0\CorporacaoOutput.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\bin\Debug\netstandard2.0\CorporacaoBO.dll
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\bin\Debug\netstandard2.0\CorporacaoBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.csprojAssemblyReference.cache
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.AssemblyInfoInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.AssemblyInfo.cs
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.csproj.CopyComplete
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoOutput\obj\Debug\netstandard2.0\CorporacaoOutput.pdb

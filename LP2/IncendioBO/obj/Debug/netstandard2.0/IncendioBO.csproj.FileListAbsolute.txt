@@ -7,3 +7,12 @@ D:\IPCA\TrabalhoLP2\LP2\IncendioBO\bin\Debug\netstandard2.0\IncendioBO.pdb
 D:\IPCA\TrabalhoLP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.dll
 D:\IPCA\TrabalhoLP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.pdb
 D:\IPCA\TrabalhoLP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.csprojAssemblyReference.cache
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\bin\Debug\netstandard2.0\IncendioBO.deps.json
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\bin\Debug\netstandard2.0\IncendioBO.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\bin\Debug\netstandard2.0\IncendioBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.csprojAssemblyReference.cache
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.AssemblyInfoInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.AssemblyInfo.cs
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioBO\obj\Debug\netstandard2.0\IncendioBO.pdb

@@ -12,3 +12,17 @@ D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.c
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.csproj.CopyComplete
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.dll
 D:\IPCA\TrabalhoLP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.csprojAssemblyReference.cache
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.AssemblyInfoInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.AssemblyInfo.cs
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.dll
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoData.deps.json
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoData.dll
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoData.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoBO.dll
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoOutput.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\bin\Debug\netstandard2.0\CorporacaoBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\CorporacaoData\obj\Debug\netstandard2.0\CorporacaoData.csproj.CopyComplete

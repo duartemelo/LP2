@@ -5,7 +5,7 @@
 
 namespace CorporacaoBO
 {
-    public enum Tipo
+    public enum TipoCorp
     {
         Sapadores,
         Voluntarios
@@ -19,7 +19,7 @@ namespace CorporacaoBO
         #region Attributes
         int id;
         string freguesia;
-        Tipo tipo;   
+        TipoCorp tipo;   
         #endregion
 
         #region Constructors
@@ -47,7 +47,7 @@ namespace CorporacaoBO
             set => freguesia = value;
         }
 
-        public Tipo Tipo
+        public TipoCorp Tipo
         {
             get => tipo;
             set => tipo = value;

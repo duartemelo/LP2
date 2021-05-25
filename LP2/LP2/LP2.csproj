@@ -58,6 +58,14 @@
       <Project>{7d6cd9db-74ee-48f5-9cda-172dda3e4dde}</Project>
       <Name>CorporacaoBO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IncendioBO\IncendioBO.csproj">
+      <Project>{bf7fbe3f-5d15-4fbe-9ff0-3e62806a78dd}</Project>
+      <Name>IncendioBO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IncendioBR\IncendioBR.csproj">
+      <Project>{7de806bf-64b7-4f2c-bb14-8e29e3ae27f4}</Project>
+      <Name>IncendioBR</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

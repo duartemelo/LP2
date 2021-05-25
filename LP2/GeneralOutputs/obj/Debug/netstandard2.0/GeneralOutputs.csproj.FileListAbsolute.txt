@@ -7,3 +7,12 @@ D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.A
 D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.csproj.CoreCompileInputs.cache
 D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.dll
 D:\IPCA\TrabalhoLP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.pdb
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\bin\Debug\netstandard2.0\GeneralOutputs.deps.json
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\bin\Debug\netstandard2.0\GeneralOutputs.dll
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\bin\Debug\netstandard2.0\GeneralOutputs.pdb
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.csprojAssemblyReference.cache
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.AssemblyInfoInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.AssemblyInfo.cs
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.dll
+C:\Users\duart\Desktop\LP2\LP2\GeneralOutputs\obj\Debug\netstandard2.0\GeneralOutputs.pdb

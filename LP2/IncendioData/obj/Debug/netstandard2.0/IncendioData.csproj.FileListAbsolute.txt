@@ -12,3 +12,17 @@ D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.dll
 D:\IPCA\TrabalhoLP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.pdb
 D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioOutput.dll
 D:\IPCA\TrabalhoLP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioOutput.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.csprojAssemblyReference.cache
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.AssemblyInfoInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.AssemblyInfo.cs
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioData.deps.json
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioData.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioData.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioBO.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\bin\Debug\netstandard2.0\IncendioOutput.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioData\obj\Debug\netstandard2.0\IncendioData.csproj.CopyComplete

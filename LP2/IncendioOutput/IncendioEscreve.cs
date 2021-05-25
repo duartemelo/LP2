@@ -19,10 +19,7 @@ namespace IncendioOutput
         /// <param name="i">Incêndio a mostrar</param>
         public static void MostraIncendio(Incendio i)
         {
-            Console.WriteLine(i.Id);
-            Console.WriteLine(i.Tipo);
-            Console.WriteLine(i.Coordenadas);
-            Console.WriteLine(i.Estado);
+            Console.WriteLine(i.ToString());
         }
 
         /// <summary>
