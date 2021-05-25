@@ -117,6 +117,15 @@ namespace IncendioBO
 
         #region Methods
 
+        /// <summary>
+        /// Adiciona um operacional à lista de operacionais do objeto incêndio (esta lista apenas contém IDs!)
+        /// Antes de chamar esta função, devem ser realizadas outras operações antes:
+        /// Confirmar se o operacional existe nos operacionais. (se sim, adicionar! porque ele existe)
+        /// Confirmar se já se encontra em algum incêndio. (se sim, não adicionar!)
+        /// Por fim, adicionar ao incêndio
+        /// </summary>
+        /// <param name="id">ID do operacional a adicionar</param>
+        /// <returns>True se adicionou, False se não adicionou</returns>
         public bool AdicionarOperacional(int id)
         {
             //"por fora", confirmar se ja existe o operacional nos operacionais!
@@ -131,6 +140,11 @@ namespace IncendioBO
             
         }
 
+        /// <summary>
+        /// Remove um operacional da lista de operacionais do objeto incêndio
+        /// </summary>
+        /// <param name="id">ID do operacional a remover</param>
+        /// <returns>True se removeu, False se não removeu</returns>
         public bool RemoverOperacional(int id)
         {
             if (operacionaisIDs.Remove(id))

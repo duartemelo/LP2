@@ -36,7 +36,7 @@ namespace IncendioData
 
         /// <summary>
         /// Adiciona um incêndio à lista de incêndios
-        /// Verifica se o incêndio pode ser adicionado (evitar conflitos de vários ativos no mesmo sítio, mas permitir que se adicione um extinto "por cima" de um ativo -> para permitir adicionar um incêndio que já decorreu naquele local, enquanto um está ativo naquele mesmo sítio
+        /// Verifica se o incêndio já existe
         /// </summary>
         /// <param name="i">Incêndio a adicionar</param>
         /// <returns>True caso seja adicionado, False caso não seja adicionado</returns>
