@@ -35,6 +35,19 @@
         "runtime": {
           "bin/placeholder/ViaturaBO.dll": {}
         }
+      },
+      "ViaturaOutput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ViaturaBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaturaOutput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaOutput.dll": {}
+        }
       }
     }
   },
@@ -187,12 +200,18 @@
       "type": "project",
       "path": "../ViaturaBO/ViaturaBO.csproj",
       "msbuildProject": "../ViaturaBO/ViaturaBO.csproj"
+    },
+    "ViaturaOutput/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaOutput/ViaturaOutput.csproj",
+      "msbuildProject": "../ViaturaOutput/ViaturaOutput.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "ViaturaBO >= 1.0.0"
+      "ViaturaBO >= 1.0.0",
+      "ViaturaOutput >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -228,6 +247,9 @@
           "projectReferences": {
             "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
               "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
+            },
+            "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj"
             }
           }
         }

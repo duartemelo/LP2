@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ViaturaBO\ViaturaBO.csproj" />
+    <ProjectReference Include="..\ViaturaOutput\ViaturaOutput.csproj" />
   </ItemGroup>
 
 </Project>

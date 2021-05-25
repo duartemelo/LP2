@@ -5,6 +5,7 @@
 
 using System.Collections.Generic;
 using ViaturaBO;
+using ViaturaOutput;
 
 namespace ViaturaData
 {
@@ -70,7 +71,7 @@ namespace ViaturaData
 
         public static void MostraViaturas()
         {
-            //chamar metodo ViaturaEscreve.MostraViaturas(passarlista);
+            ViaturaEscreve.MostraViaturas(viaturas);  
         }
 
         #endregion

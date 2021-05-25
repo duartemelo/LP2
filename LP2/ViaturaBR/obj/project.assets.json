@@ -25,6 +25,53 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "GeneralOutputs/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GeneralOutputs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeneralOutputs.dll": {}
+        }
+      },
+      "ViaturaBO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ViaturaBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaBO.dll": {}
+        }
+      },
+      "ViaturaData/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ViaturaBO": "1.0.0",
+          "ViaturaOutput": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaturaData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaData.dll": {}
+        }
+      },
+      "ViaturaOutput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ViaturaBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaturaOutput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaOutput.dll": {}
+        }
       }
     }
   },
@@ -172,11 +219,34 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "GeneralOutputs/1.0.0": {
+      "type": "project",
+      "path": "../GeneralOutputs/GeneralOutputs.csproj",
+      "msbuildProject": "../GeneralOutputs/GeneralOutputs.csproj"
+    },
+    "ViaturaBO/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaBO/ViaturaBO.csproj",
+      "msbuildProject": "../ViaturaBO/ViaturaBO.csproj"
+    },
+    "ViaturaData/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaData/ViaturaData.csproj",
+      "msbuildProject": "../ViaturaData/ViaturaData.csproj"
+    },
+    "ViaturaOutput/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaOutput/ViaturaOutput.csproj",
+      "msbuildProject": "../ViaturaOutput/ViaturaOutput.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "GeneralOutputs >= 1.0.0",
+      "NETStandard.Library >= 2.0.3",
+      "ViaturaBO >= 1.0.0",
+      "ViaturaData >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -209,7 +279,17 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj"
+            },
+            "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
+            },
+            "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaData\\ViaturaData.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaData\\ViaturaData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

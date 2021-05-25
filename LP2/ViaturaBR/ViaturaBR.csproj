@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GeneralOutputs\GeneralOutputs.csproj" />
+    <ProjectReference Include="..\ViaturaBO\ViaturaBO.csproj" />
+    <ProjectReference Include="..\ViaturaData\ViaturaData.csproj" />
+  </ItemGroup>
+
 </Project>

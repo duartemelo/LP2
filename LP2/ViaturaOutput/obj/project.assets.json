@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ViaturaBO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ViaturaBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaBO.dll": {}
+        }
       }
     }
   },
@@ -172,11 +182,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ViaturaBO/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaBO/ViaturaBO.csproj",
+      "msbuildProject": "../ViaturaBO/ViaturaBO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "ViaturaBO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -209,7 +225,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
