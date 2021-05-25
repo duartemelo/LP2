@@ -30,12 +30,16 @@ namespace LP2
 
             CorporacaoRegras.MostraCorporacoes();
 
-            Console.ReadKey();
+            Console.WriteLine("----");
 
             Incendio incendio = new Incendio();
             incendio.Tipo = TipoIncendio.Florestal;
             float[] coordenadas = { 100, 200 };
             incendio.Coordenadas = coordenadas;
+            incendio.AdicionarOperacional(1);
+            incendio.AdicionarOperacional(1);
+            incendio.AdicionarOperacional(2);
+
             IncendioRegras.InsereIncendio(incendio);
 
             IncendioRegras.MostraIncendios();

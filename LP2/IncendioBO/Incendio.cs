@@ -110,15 +110,45 @@ namespace IncendioBO
         }
 
         public override string ToString()
-        {
-            string operacionaisIDsString = string.Join(";", operacionaisIDs);
-            string viaturasIDsString = string.Join(";", viaturasIDs);
-            
-            return string.Format("ID: {0}\nTipo: {1}\nCoordenadas: {2}\nEstado: {3}\nInicio Incendio: {4}\nFim Incendio: {5}\nOperacionaisIDS: {6}\nViaturasIDS:{7}", id, tipo, coordenadas, estado, inicioIncendio, fimIncendio, operacionaisIDsString, viaturasIDsString);
+        {   
+            return string.Format("ID: {0}\nTipo: {1}\nCoordenadas: {2}\nEstado: {3}\nInicio Incendio: {4}\nFim Incendio: {5}\nOperacionaisIDS: {6}\nViaturasIDS:{7}", id, tipo, string.Join(", ",coordenadas), estado, inicioIncendio, fimIncendio, string.Join(", ", operacionaisIDs), string.Join(", ", viaturasIDs));
         }
         #endregion
 
         #region Methods
+
+        public bool AdicionarOperacional(int id)
+        {
+            //"por fora", confirmar se ja existe o operacional nos operacionais!
+            if (VerificarOperacionalExisteNoIncendio(id))
+                return false;
+            else
+            {
+                operacionaisIDs.Add(id);
+                return true;
+            }
+            
+            
+        }
+
+        public bool RemoverOperacional(int id)
+        {
+            if (operacionaisIDs.Remove(id))
+                return true;
+            return false;
+        }
+        public bool VerificarOperacionalExisteNoIncendio(int id)
+        {
+            foreach (int idOper in operacionaisIDs)
+            {
+                if (idOper == id)
+                    return true;
+                
+            }
+            return false;
+        }
+
+        
 
         #endregion
     }
