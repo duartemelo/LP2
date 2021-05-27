@@ -59,7 +59,7 @@ namespace CorporacaoBO
 
         public static bool operator ==(Corporacao c1, Corporacao c2)
         {
-            return (c1.Tipo == c2.Tipo && c1.Freguesia == c2.Freguesia);
+            return (c1.Equals(c2));
         }
 
         public static bool operator != (Corporacao c1, Corporacao c2)
@@ -69,7 +69,13 @@ namespace CorporacaoBO
 
         public override bool Equals(object obj)
         {
-            return this == (Corporacao)obj;
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+                return false;
+            else
+            {
+                Corporacao c = (Corporacao)obj;
+                return (tipo == c.Tipo && freguesia == c.Freguesia);
+            }
         }
 
         public override string ToString()

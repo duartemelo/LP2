@@ -89,9 +89,7 @@ namespace ViaturaBO
 
         public static bool operator ==(Viatura v1, Viatura v2)
         {
-            if (v1.matricula == v2.matricula)
-                return true;
-            return false;
+            return v1.Equals(v2);
         }
         public static bool operator !=(Viatura v1, Viatura v2)
         {
@@ -100,7 +98,13 @@ namespace ViaturaBO
 
         public override bool Equals(object obj)
         {
-            return this == (Viatura)obj;
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+                return false;
+            else
+            {
+                Viatura v = (Viatura)obj;
+                return (matricula == v.Matricula);
+            }
         }
 
         public override string ToString()

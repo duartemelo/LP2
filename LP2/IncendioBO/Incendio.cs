@@ -96,7 +96,7 @@ namespace IncendioBO
 
         public static bool operator ==(Incendio i1, Incendio i2)
         {
-            return (i1.Coordenadas == i2.coordenadas && i1.Tipo == i2.Tipo);
+            return (i1.Equals(i2));
         }
 
         public static bool operator !=(Incendio i1, Incendio i2)
@@ -106,7 +106,13 @@ namespace IncendioBO
 
         public override bool Equals(object obj)
         {
-            return this == (Incendio)obj;
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+                return false;
+            else
+            {
+                Incendio i = (Incendio)obj;
+                return (coordenadas == i.Coordenadas && tipo == i.Tipo);
+            }
         }
 
         public override string ToString()
