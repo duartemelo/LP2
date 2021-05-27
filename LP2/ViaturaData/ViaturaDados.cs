@@ -21,10 +21,6 @@ namespace ViaturaData
 
         #endregion
 
-        #region Constructors
-
-        #endregion
-
         #region Properties
 
         /// <summary>

@@ -22,10 +22,6 @@ namespace CorporacaoData
 
         #endregion
 
-        #region Constructors
-
-        #endregion
-
         #region Properties
 
         public static int NumCorporacoes
