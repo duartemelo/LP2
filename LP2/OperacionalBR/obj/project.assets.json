@@ -25,6 +25,39 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "GeneralOutputs/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GeneralOutputs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeneralOutputs.dll": {}
+        }
+      },
+      "OperacionalBO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/OperacionalBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalBO.dll": {}
+        }
+      },
+      "OperacionalData/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OperacionalBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OperacionalData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalData.dll": {}
+        }
       }
     }
   },
@@ -172,11 +205,29 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "GeneralOutputs/1.0.0": {
+      "type": "project",
+      "path": "../GeneralOutputs/GeneralOutputs.csproj",
+      "msbuildProject": "../GeneralOutputs/GeneralOutputs.csproj"
+    },
+    "OperacionalBO/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalBO/OperacionalBO.csproj",
+      "msbuildProject": "../OperacionalBO/OperacionalBO.csproj"
+    },
+    "OperacionalData/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalData/OperacionalData.csproj",
+      "msbuildProject": "../OperacionalData/OperacionalData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "GeneralOutputs >= 1.0.0",
+      "NETStandard.Library >= 2.0.3",
+      "OperacionalBO >= 1.0.0",
+      "OperacionalData >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -205,7 +256,17 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBO\\OperacionalBO.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBO\\OperacionalBO.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalData\\OperacionalData.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalData\\OperacionalData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

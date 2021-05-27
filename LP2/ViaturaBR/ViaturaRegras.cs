@@ -21,8 +21,11 @@ namespace ViaturaBR
                 if (ViaturaValidaParaInserir(v))
                     return ViaturaDados.AddViatura(v);
                 else
-                    GeneralEscreve.EscreveErro("Viatura não se encontra válida para inserir!");
+                {
+                    GeneralEscreve.EscreveErro("Viatura não se encontra válida para inserir!"); //passar isto para exception?
                     return false;
+                }
+                    
 
             } catch (Exception e)
             {
@@ -51,7 +54,7 @@ namespace ViaturaBR
 
         public static void MostraViaturas()
         {
-            return ViaturaDados.MostraViaturas();
+            ViaturaDados.MostraViaturas();
         }
     }
 }
