@@ -20,8 +20,7 @@ namespace IncendioData
 
         #endregion
 
-        #region Constructors
-        #endregion
+        
 
         #region Properties
 
@@ -42,7 +41,7 @@ namespace IncendioData
         /// <returns>True caso seja adicionado, False caso não seja adicionado</returns>
         public static bool AddIncendio(Incendio i)
         {
-            if (VerificaSeIncendioExiste(i) == true)
+            if (VerificaSeIncendioExiste(i))
             {
                 return false;
             }
@@ -66,7 +65,6 @@ namespace IncendioData
                 numIncendios--;
                 return true;
             }
-            else
                 return false;
         }
 

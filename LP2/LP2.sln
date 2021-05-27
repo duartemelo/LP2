@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operacional", "Operacional"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionalBO", "OperacionalBO\OperacionalBO.csproj", "{D0B7EF56-4CAE-4CC9-97E8-5991C9703C92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionalData", "OperacionalData\OperacionalData.csproj", "{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{D0B7EF56-4CAE-4CC9-97E8-5991C9703C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B7EF56-4CAE-4CC9-97E8-5991C9703C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B7EF56-4CAE-4CC9-97E8-5991C9703C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +134,7 @@ Global
 		{528EE7DF-4658-4942-B199-30DF3D021DBC} = {3CF26BDA-BD07-4960-8215-AC30F729A88D}
 		{1F056030-C195-4343-BFE0-A5D15CD3DEBD} = {3CF26BDA-BD07-4960-8215-AC30F729A88D}
 		{D0B7EF56-4CAE-4CC9-97E8-5991C9703C92} = {7E74AF8D-ECF6-477F-B0C4-137720D044DA}
+		{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41} = {7E74AF8D-ECF6-477F-B0C4-137720D044DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73FA655D-2344-4000-9395-D097A1941D4B}
