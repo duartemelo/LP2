@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "scjsDdNDaQXgezn/PfUz3s722ykICM764UvTXzVm3S0OM5EYF5ZTAyWP7PSuJuZEmEVkFE56EcUjcjpPcsBV7Q==",
+  "dgSpecHash": "PrOIJuUZLBLIGIkvEINcFJZ7hXldRIDVBhStCOslIiqJu6wd93kaBL819d9PXumXO4ePbWq+ZlTpxp7Ms11xmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj",
+  "projectFilePath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

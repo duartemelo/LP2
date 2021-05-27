@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBR\\IncendioBR.csproj": {}
+    "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
+    "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
+        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
         "projectName": "GeneralOutputs",
-        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
+        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\obj\\",
+        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -60,22 +57,19 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
+    "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj",
+        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj",
         "projectName": "IncendioBO",
-        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj",
+        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\obj\\",
+        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -120,22 +114,19 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBR\\IncendioBR.csproj": {
+    "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBR\\IncendioBR.csproj",
+        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj",
         "projectName": "IncendioBR",
-        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBR\\IncendioBR.csproj",
+        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBR\\obj\\",
+        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -151,14 +142,14 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
-                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj"
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj"
               },
-              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
-                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj"
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj"
               },
-              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioData\\IncendioData.csproj": {
-                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioData\\IncendioData.csproj"
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioData\\IncendioData.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioData\\IncendioData.csproj"
               }
             }
           }
@@ -190,22 +181,19 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioData\\IncendioData.csproj": {
+    "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioData\\IncendioData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioData\\IncendioData.csproj",
+        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioData\\IncendioData.csproj",
         "projectName": "IncendioData",
-        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioData\\IncendioData.csproj",
+        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioData\\IncendioData.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioData\\obj\\",
+        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -221,11 +209,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
-                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj"
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj"
               },
-              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioOutput\\IncendioOutput.csproj": {
-                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioOutput\\IncendioOutput.csproj"
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj"
               }
             }
           }
@@ -257,22 +245,19 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioOutput\\IncendioOutput.csproj": {
+    "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioOutput\\IncendioOutput.csproj",
+        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj",
         "projectName": "IncendioOutput",
-        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioOutput\\IncendioOutput.csproj",
+        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioOutput\\obj\\",
+        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -288,8 +273,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
-                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioBO\\IncendioBO.csproj"
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBO\\IncendioBO.csproj"
               }
             }
           }
@@ -321,7 +306,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

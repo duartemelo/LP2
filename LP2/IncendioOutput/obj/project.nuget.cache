@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DseIx3T4FRXPblprXsdOP+GDjLPSJvY/+J4iw+yZyE4+9u6yYxUc3qkwpiy5OuF6+UbSLayhknsw5vh1qZdMKg==",
+  "dgSpecHash": "GUmxJBIDwE9X6C92g/PonnPIlWuqydE5oIElUewnw00j9SOeKmE8r9CUijTjYq7KkxlUWTf8d18jwaYjsoI17g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\IncendioOutput\\IncendioOutput.csproj",
+  "projectFilePath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
