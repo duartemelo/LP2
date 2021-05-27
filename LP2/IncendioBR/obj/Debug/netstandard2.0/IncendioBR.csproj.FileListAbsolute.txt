@@ -16,3 +16,11 @@ C:\Users\duart\Desktop\LP2\LP2\IncendioBR\obj\Debug\netstandard2.0\IncendioBR.cs
 C:\Users\duart\Desktop\LP2\LP2\IncendioBR\obj\Debug\netstandard2.0\IncendioBR.csproj.CopyComplete
 C:\Users\duart\Desktop\LP2\LP2\IncendioBR\obj\Debug\netstandard2.0\IncendioBR.dll
 C:\Users\duart\Desktop\LP2\LP2\IncendioBR\obj\Debug\netstandard2.0\IncendioBR.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalBO.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalBR.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalData.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalBR.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalData.pdb
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\IncendioBR\bin\Debug\netstandard2.0\OperacionalOutput.pdb

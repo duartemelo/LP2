@@ -35,6 +35,19 @@
         "runtime": {
           "bin/placeholder/OperacionalBO.dll": {}
         }
+      },
+      "OperacionalOutput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OperacionalBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OperacionalOutput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalOutput.dll": {}
+        }
       }
     }
   },
@@ -187,26 +200,36 @@
       "type": "project",
       "path": "../OperacionalBO/OperacionalBO.csproj",
       "msbuildProject": "../OperacionalBO/OperacionalBO.csproj"
+    },
+    "OperacionalOutput/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalOutput/OperacionalOutput.csproj",
+      "msbuildProject": "../OperacionalOutput/OperacionalOutput.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "OperacionalBO >= 1.0.0"
+      "OperacionalBO >= 1.0.0",
+      "OperacionalOutput >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\duart\\.nuget\\packages\\": {}
+    "C:\\Users\\duart\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalData\\OperacionalData.csproj",
+      "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\OperacionalData\\OperacionalData.csproj",
       "projectName": "OperacionalData",
-      "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalData\\OperacionalData.csproj",
+      "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\OperacionalData\\OperacionalData.csproj",
       "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-      "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalData\\obj\\",
+      "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\OperacionalData\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -222,8 +245,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBO\\OperacionalBO.csproj": {
-              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBO\\OperacionalBO.csproj"
+            "C:\\Users\\duart\\Desktop\\LP2\\LP2\\OperacionalBO\\OperacionalBO.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\OperacionalBO\\OperacionalBO.csproj"
+            },
+            "C:\\Users\\duart\\Desktop\\LP2\\LP2\\OperacionalOutput\\OperacionalOutput.csproj": {
+              "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\OperacionalOutput\\OperacionalOutput.csproj"
             }
           }
         }
@@ -255,7 +281,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

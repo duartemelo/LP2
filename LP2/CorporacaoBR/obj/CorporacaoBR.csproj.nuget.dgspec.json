@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj": {}
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj": {}
   },
   "projects": {
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj",
         "projectName": "CorporacaoBR",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoBR\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoBR\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -28,17 +31,17 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\CorporacaoData.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\CorporacaoData.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoData\\CorporacaoData.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoData\\CorporacaoData.csproj"
               },
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj"
               },
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
               },
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj"
               }
             }
           }
@@ -70,19 +73,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\CorporacaoData.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoData\\CorporacaoData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\CorporacaoData.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoData\\CorporacaoData.csproj",
         "projectName": "CorporacaoData",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\CorporacaoData.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoData\\CorporacaoData.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoData\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -98,11 +104,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj"
               },
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
               }
             }
           }
@@ -134,19 +140,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj",
         "projectName": "CorporacaoOutput",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\CorporacaoOutput.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoOutput\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacaoOutput\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -162,8 +171,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj"
               }
             }
           }
@@ -195,19 +204,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj",
         "projectName": "CorporacaoBO",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\CorporacaoBO.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacoesBO\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\CorporacoesBO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -252,19 +264,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
         "projectName": "GeneralOutputs",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\GeneralOutputs.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\GeneralOutputs\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\GeneralOutputs\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -309,7 +324,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

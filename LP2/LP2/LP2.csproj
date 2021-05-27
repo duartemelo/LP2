@@ -66,6 +66,14 @@
       <Project>{7de806bf-64b7-4f2c-bb14-8e29e3ae27f4}</Project>
       <Name>IncendioBR</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OperacionalBO\OperacionalBO.csproj">
+      <Project>{d0b7ef56-4cae-4cc9-97e8-5991c9703c92}</Project>
+      <Name>OperacionalBO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OperacionalBR\OperacionalBR.csproj">
+      <Project>{50933be1-c2e8-407c-b1a9-c89603567b4a}</Project>
+      <Name>OperacionalBR</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

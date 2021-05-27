@@ -86,7 +86,7 @@ namespace OperacionalBO
 
         public static bool operator == (Operacional o1, Operacional o2)
         {
-            return (o1.cc == o2.cc);
+            return (o1.Equals(o2));
         }
 
         public static bool operator != (Operacional o1, Operacional o2)
@@ -96,7 +96,17 @@ namespace OperacionalBO
 
         public override bool Equals(object obj)
         {
-            return this == (Operacional)obj;
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+                return false;
+            else
+            {
+                Operacional o = (Operacional)obj;
+                return (cc == o.Cc);
+            }
+
+
+
+
         }
 
         public override string ToString()

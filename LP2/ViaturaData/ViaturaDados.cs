@@ -16,7 +16,7 @@ namespace ViaturaData
     {
         #region Attributes
         private static int numViaturas = 0;
-        private static int numIDs = numViaturas;
+        private static int numIDs = 1;
         private static List<Viatura> viaturas = new List<Viatura>();
 
         #endregion

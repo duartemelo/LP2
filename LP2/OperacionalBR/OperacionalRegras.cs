@@ -51,5 +51,10 @@ namespace OperacionalBR
         {
             OperacionalDados.MostraOperacionais();
         }
+
+        public static bool VerificaSeOperacionalExiste(int id)
+        {
+            return OperacionalDados.VerificaSeOperacionalExiste(id);
+        }
     }
 }

@@ -1,0 +1,8 @@
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\bin\Debug\netstandard2.0\OperacionalBO.deps.json
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\bin\Debug\netstandard2.0\OperacionalBO.dll
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\bin\Debug\netstandard2.0\OperacionalBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.AssemblyInfoInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.AssemblyInfo.cs
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.dll
+C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.pdb

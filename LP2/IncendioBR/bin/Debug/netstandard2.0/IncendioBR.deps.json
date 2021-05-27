@@ -12,7 +12,8 @@
           "GeneralOutputs": "1.0.0",
           "IncendioBO": "1.0.0",
           "IncendioData": "1.0.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "OperacionalBR": "1.0.0"
         },
         "runtime": {
           "IncendioBR.dll": {}
@@ -49,6 +50,38 @@
         },
         "runtime": {
           "IncendioOutput.dll": {}
+        }
+      },
+      "OperacionalBO/1.0.0": {
+        "runtime": {
+          "OperacionalBO.dll": {}
+        }
+      },
+      "OperacionalBR/1.0.0": {
+        "dependencies": {
+          "GeneralOutputs": "1.0.0",
+          "OperacionalBO": "1.0.0",
+          "OperacionalData": "1.0.0"
+        },
+        "runtime": {
+          "OperacionalBR.dll": {}
+        }
+      },
+      "OperacionalData/1.0.0": {
+        "dependencies": {
+          "OperacionalBO": "1.0.0",
+          "OperacionalOutput": "1.0.0"
+        },
+        "runtime": {
+          "OperacionalData.dll": {}
+        }
+      },
+      "OperacionalOutput/1.0.0": {
+        "dependencies": {
+          "OperacionalBO": "1.0.0"
+        },
+        "runtime": {
+          "OperacionalOutput.dll": {}
         }
       }
     }
@@ -89,6 +122,26 @@
       "sha512": ""
     },
     "IncendioOutput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalBR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalOutput/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using OperacionalBO;
+using OperacionalOutput;
 
 namespace OperacionalData
 {
@@ -9,7 +10,7 @@ namespace OperacionalData
         #region Attributes
 
         private static int numOperacionais = 0;
-        private static int numIDs = numOperacionais;
+        private static int numIDs = 1;
         private static List<Operacional> operacionais = new List<Operacional>();
 
         #endregion
@@ -56,9 +57,19 @@ namespace OperacionalData
             return false;
         }
 
+        public static bool VerificaSeOperacionalExiste(int id)
+        {
+            foreach(Operacional operacional in operacionais)
+            {
+                if (operacional.Id == id)
+                    return true;
+            }
+            return false;
+        }
+
         public static void MostraOperacionais()
         {
-            //output
+            OperacionalEscreve.MostraOperacionais(operacionais);
         }
 
         #endregion

@@ -16,7 +16,7 @@ namespace CorporacaoData
         #region Attributes
 
         private static int numCorporacoes = 0;        
-        private static int numIDs = numCorporacoes; //criado apenas para evitar conflitos com IDs repetidos, quando é criada uma corp, o numID é incrementado, quando é removida, o numID mantem-se
+        private static int numIDs = 1; //criado apenas para evitar conflitos com IDs repetidos, quando é criada uma corp, o numID é incrementado, quando é removida, o numID mantem-se
         private static List<Corporacao> corporacoes = new List<Corporacao>();
 
 

@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaData\\ViaturaData.csproj": {}
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaData\\ViaturaData.csproj": {}
   },
   "projects": {
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj",
         "projectName": "ViaturaBO",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -57,19 +60,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaData\\ViaturaData.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaData\\ViaturaData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaData\\ViaturaData.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaData\\ViaturaData.csproj",
         "projectName": "ViaturaData",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaData\\ViaturaData.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaData\\ViaturaData.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaData\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -85,11 +91,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
               },
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj"
               }
             }
           }
@@ -121,19 +127,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj": {
+    "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj",
+        "projectUniqueName": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj",
         "projectName": "ViaturaOutput",
-        "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj",
+        "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\ViaturaOutput.csproj",
         "packagesPath": "C:\\Users\\duart\\.nuget\\packages\\",
-        "outputPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaOutput\\obj\\",
+        "outputPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaOutput\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\duart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -149,8 +158,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
-                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
+              "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
+                "projectPath": "C:\\Users\\duart\\Desktop\\LP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
               }
             }
           }
@@ -182,7 +191,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,6 +6,7 @@ using System;
 using IncendioBO;
 using IncendioData;
 using GeneralOutputs;
+using OperacionalBR;
 
 namespace IncendioBR
 {
@@ -77,6 +78,27 @@ namespace IncendioBR
             IncendioDados.MostraIncendios();
         }
 
-        
+        public static bool VerificaOperacionalIncendios(int id)
+        {
+            return IncendioDados.VerificaOperacionalIncendios(id);
+        }
+
+        public static bool AdicionarOperacionalIncendio(int idIncendio, int idOper)
+        {
+            //operacional tem de existir!
+            if (OperacionalRegras.VerificaSeOperacionalExiste(idOper))
+            {
+                //nao pode estar em nenhum incendio!
+                if (VerificaOperacionalIncendios(idOper) != true)
+                {
+                    //adiciona operacional
+                    return IncendioDados.AdicionaOperacionalIncendioID(idIncendio, idOper);
+                }
+            }
+            return false;
+        }
+
+
+
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalOutput.deps.json
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalOutput.pdb
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalBO.dll
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.AssemblyInfoInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.AssemblyInfo.cs
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.csproj.CoreCompileInputs.cache
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.csproj.CopyComplete
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.pdb

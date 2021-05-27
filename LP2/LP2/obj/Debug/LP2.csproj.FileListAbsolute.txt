@@ -42,3 +42,11 @@ C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\IncendioData.pdb
 C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\CorporacaoOutput.pdb
 C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\IncendioOutput.pdb
 C:\Users\duart\Desktop\LP2\LP2\LP2\obj\Debug\LP2.csproj.CopyComplete
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalBR.dll
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalBO.dll
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalData.dll
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalBR.pdb
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalBO.pdb
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalData.pdb
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalOutput.dll
+C:\Users\duart\Desktop\LP2\LP2\LP2\bin\Debug\OperacionalOutput.pdb

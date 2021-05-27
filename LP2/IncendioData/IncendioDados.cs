@@ -15,7 +15,7 @@ namespace IncendioData
     {
         #region Attributes
         private static int numIncendios = 0;
-        private static int numIDs = numIncendios;
+        private static int numIDs = 1;
         private static List<Incendio> incendios = new List<Incendio>();
 
         #endregion
@@ -111,6 +111,29 @@ namespace IncendioData
         public static void MostraIncendios()
         {
             IncendioEscreve.MostraIncendios(incendios);
+        }
+
+        public static bool VerificaOperacionalIncendios(int id)
+        {
+            bool existe = false;
+            foreach(Incendio incendio in incendios)
+            {
+                existe = incendio.VerificarOperacionalExisteNoIncendio(id);
+            }
+            return existe;
+        }
+
+        public static bool AdicionaOperacionalIncendioID(int idIncendio, int idOper)
+        {
+            foreach(Incendio incendio in incendios)
+            {
+                if (incendio.Id == idIncendio)
+                {
+                    incendio.AdicionarOperacional(idOper);
+                    return true;
+                }
+            }
+            return false;
         }
 
         #endregion
