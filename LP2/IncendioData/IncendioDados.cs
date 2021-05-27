@@ -113,6 +113,11 @@ namespace IncendioData
             IncendioEscreve.MostraIncendios(incendios);
         }
 
+        /// <summary>
+        /// Verifica se um determinado ID de um operacional existe em algum incêndio
+        /// </summary>
+        /// <param name="id">ID do operacional a procurar</param>
+        /// <returns>True se existir, False se não existir</returns>
         public static bool VerificaOperacionalIncendios(int id)
         {
             bool existe = false;
@@ -123,6 +128,12 @@ namespace IncendioData
             return existe;
         }
 
+        /// <summary>
+        /// Adiciona um operacional a um incêndio pelos IDs de ambos
+        /// </summary>
+        /// <param name="idIncendio"></param>
+        /// <param name="idOper"></param>
+        /// <returns>True se adicionou, False se não existiu</returns>
         public static bool AdicionaOperacionalIncendioID(int idIncendio, int idOper)
         {
             foreach(Incendio incendio in incendios)

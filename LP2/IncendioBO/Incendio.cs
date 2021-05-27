@@ -157,6 +157,12 @@ namespace IncendioBO
                 return true;
             return false;
         }
+
+        /// <summary>
+        /// Verifica se um determinado ID de um operacional existe neste incêndio
+        /// </summary>
+        /// <param name="id">ID do operacional a confirmar</param>
+        /// <returns>True se existir, False se não existir</returns>
         public bool VerificarOperacionalExisteNoIncendio(int id)
         {
             foreach (int idOper in operacionaisIDs)

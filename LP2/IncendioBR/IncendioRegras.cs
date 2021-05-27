@@ -78,11 +78,22 @@ namespace IncendioBR
             IncendioDados.MostraIncendios();
         }
 
+        /// <summary>
+        /// Verifica se um determinado ID de um operacional existe em algum incêndio
+        /// </summary>
+        /// <param name="id">ID do operacional</param>
+        /// <returns>True se existir em algum incêndio, False se não existir em nenhum incêndio</returns>
         public static bool VerificaOperacionalIncendios(int id)
         {
             return IncendioDados.VerificaOperacionalIncendios(id);
         }
 
+        /// <summary>
+        /// Adiciona um operacional a um incêndio a partir do id do incêndio e do id do operacional
+        /// </summary>
+        /// <param name="idIncendio">ID incêndio onde vai adicionar o operacional</param>
+        /// <param name="idOper">ID do operacional a adicionar ao incêndio</param>
+        /// <returns></returns>
         public static bool AdicionarOperacionalIncendio(int idIncendio, int idOper)
         {
             //operacional tem de existir!
