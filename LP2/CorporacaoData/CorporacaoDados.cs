@@ -85,6 +85,16 @@ namespace CorporacaoData
             return false;
         }
 
+        public static bool VerificarCorporacaoExiste(int id)
+        {
+            foreach(Corporacao corporacao in corporacoes)
+            {
+                if (corporacao.Id == id)
+                    return true;
+            }
+            return false;
+        }
+
         /// <summary>
         /// Devolve uma corporação presente nas corporações pelo seu ID
         /// </summary>

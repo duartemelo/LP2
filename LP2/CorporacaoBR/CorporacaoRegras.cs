@@ -76,6 +76,11 @@ namespace CorporacaoBR
         }
         
 
+        public static bool VerificarCorporacaoExiste(int id)
+        {
+            return CorporacaoDados.VerificarCorporacaoExiste(id);
+        }
+
 
     }
 }

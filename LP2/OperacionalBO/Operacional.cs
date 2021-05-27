@@ -115,5 +115,17 @@ namespace OperacionalBO
         }
 
         #endregion
+
+        #region Methods
+
+        public bool AdicionarACorporacao(int corpId)
+        {
+            if (corporacaoID == 0)
+                return false;
+            corporacaoID = corpId;
+            return true;
+        }
+
+        #endregion
     }
 }
