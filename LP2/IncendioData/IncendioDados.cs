@@ -2,6 +2,7 @@
  * Nome: Duarte Ribeiro de Melo
  * E-mail: a21149@alunos.ipca.pt
 */
+using System;
 using IncendioBO;
 using IncendioOutput;
 using System.Collections.Generic;
@@ -145,6 +146,35 @@ namespace IncendioData
                 }
             }
             return false;
+        }
+
+        public static bool AlterarHoraFimIncendio(int idIncendio, DateTime fimIncendio)
+        {
+            foreach(Incendio incendio in incendios)
+            {
+                if (incendio.Id == idIncendio)
+                {
+                    if (fimIncendio > incendio.InicioIncendio && fimIncendio <= DateTime.Today)
+                    {
+                        incendio.FimIncendio = fimIncendio;
+                        incendio.Estado = EstadoIncendio.Extinto;
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public static Incendio DevolveIncendioPeloId(int idIncendio)
+        {
+            foreach(Incendio incendio in incendios)
+            {
+                if (incendio.Id == idIncendio)
+                {
+                    return incendio;
+                }
+            }
+            return null;
         }
 
         #endregion

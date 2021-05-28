@@ -68,3 +68,5 @@ D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\IncendioOutput.pdb
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\OperacionalOutput.pdb
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\Menu.dll
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\Menu.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\IncendioInput.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\IncendioInput.pdb

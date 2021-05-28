@@ -9,6 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "Menu/1.0.0": {
         "dependencies": {
+          "IncendioBR": "1.0.0",
+          "IncendioInput": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -19,6 +21,119 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "CorporacaoBO/1.0.0": {
+        "runtime": {
+          "CorporacaoBO.dll": {}
+        }
+      },
+      "CorporacaoBR/1.0.0": {
+        "dependencies": {
+          "CorporacaoBO": "1.0.0",
+          "CorporacaoData": "1.0.0",
+          "CorporacaoOutput": "1.0.0",
+          "GeneralOutputs": "1.0.0"
+        },
+        "runtime": {
+          "CorporacaoBR.dll": {}
+        }
+      },
+      "CorporacaoData/1.0.0": {
+        "dependencies": {
+          "CorporacaoBO": "1.0.0",
+          "CorporacaoOutput": "1.0.0"
+        },
+        "runtime": {
+          "CorporacaoData.dll": {}
+        }
+      },
+      "CorporacaoOutput/1.0.0": {
+        "dependencies": {
+          "CorporacaoBO": "1.0.0"
+        },
+        "runtime": {
+          "CorporacaoOutput.dll": {}
+        }
+      },
+      "GeneralOutputs/1.0.0": {
+        "runtime": {
+          "GeneralOutputs.dll": {}
+        }
+      },
+      "IncendioBO/1.0.0": {
+        "runtime": {
+          "IncendioBO.dll": {}
+        }
+      },
+      "IncendioBR/1.0.0": {
+        "dependencies": {
+          "GeneralOutputs": "1.0.0",
+          "IncendioBO": "1.0.0",
+          "IncendioData": "1.0.0",
+          "OperacionalBR": "1.0.0"
+        },
+        "runtime": {
+          "IncendioBR.dll": {}
+        }
+      },
+      "IncendioData/1.0.0": {
+        "dependencies": {
+          "IncendioBO": "1.0.0",
+          "IncendioOutput": "1.0.0"
+        },
+        "runtime": {
+          "IncendioData.dll": {}
+        }
+      },
+      "IncendioInput/1.0.0": {
+        "dependencies": {
+          "IncendioBO": "1.0.0",
+          "IncendioBR": "1.0.0"
+        },
+        "runtime": {
+          "IncendioInput.dll": {}
+        }
+      },
+      "IncendioOutput/1.0.0": {
+        "dependencies": {
+          "IncendioBO": "1.0.0"
+        },
+        "runtime": {
+          "IncendioOutput.dll": {}
+        }
+      },
+      "OperacionalBO/1.0.0": {
+        "runtime": {
+          "OperacionalBO.dll": {}
+        }
+      },
+      "OperacionalBR/1.0.0": {
+        "dependencies": {
+          "CorporacaoBR": "1.0.0",
+          "GeneralOutputs": "1.0.0",
+          "OperacionalBO": "1.0.0",
+          "OperacionalData": "1.0.0"
+        },
+        "runtime": {
+          "OperacionalBR.dll": {}
+        }
+      },
+      "OperacionalData/1.0.0": {
+        "dependencies": {
+          "OperacionalBO": "1.0.0",
+          "OperacionalOutput": "1.0.0"
+        },
+        "runtime": {
+          "OperacionalData.dll": {}
+        }
+      },
+      "OperacionalOutput/1.0.0": {
+        "dependencies": {
+          "OperacionalBO": "1.0.0"
+        },
+        "runtime": {
+          "OperacionalOutput.dll": {}
         }
       }
     }
@@ -42,6 +157,76 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "CorporacaoBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CorporacaoBR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CorporacaoData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CorporacaoOutput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeneralOutputs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IncendioBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IncendioBR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IncendioData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IncendioInput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IncendioOutput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalBR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OperacionalOutput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

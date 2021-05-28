@@ -54,6 +54,11 @@ namespace IncendioBR
             }
         }
 
+        public static Incendio DevolveIncendioPeloId(int idIncendio)
+        {
+            return (IncendioDados.DevolveIncendioPeloId(idIncendio));
+        }
+
         /// <summary>
         /// Verifica se um incêndio cumpre os requisitos para ser inserido
         /// </summary>
@@ -113,6 +118,11 @@ namespace IncendioBR
                 
             }
             return false;
+        }
+
+        public static bool AlterarHoraFimIncendio(int idIncendio, DateTime horaFim)
+        {
+            return (IncendioDados.AlterarHoraFimIncendio(idIncendio, horaFim));
         }
 
 

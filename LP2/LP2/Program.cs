@@ -24,9 +24,9 @@ namespace LP2
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            
 
-            Corporacao corporacao = new Corporacao();
+
+            /*Corporacao corporacao = new Corporacao();
             corporacao.Tipo = TipoCorp.Voluntarios;
             corporacao.Freguesia = "Maximinos";
             CorporacaoRegras.InsereCorporacao(corporacao);
@@ -90,7 +90,9 @@ namespace LP2
             IncendioRegras.MostraIncendios();
 
             //MenuIO.WriteMenu();
+            */
 
+            MenuIO.UserInterface();
 
             Console.ReadKey();
 

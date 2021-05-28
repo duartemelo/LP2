@@ -46,7 +46,7 @@ namespace IncendioBO
         {
             operacionaisIDs = new List<int>();
             viaturasIDs = new List<int>();
-            //estado default = ativo?
+            coordenadas = new float[2];
         }
 
         #endregion
@@ -173,6 +173,8 @@ namespace IncendioBO
             }
             return false;
         }
+
+        
 
         
 

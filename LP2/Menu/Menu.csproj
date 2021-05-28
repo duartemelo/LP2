@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IncendioBR\IncendioBR.csproj" />
+    <ProjectReference Include="..\IncendioInput\IncendioInput.csproj" />
+  </ItemGroup>
+
 </Project>
