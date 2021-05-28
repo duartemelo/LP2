@@ -188,6 +188,27 @@ namespace IncendioData
             }
             return null;
         }
+        public static bool VerificaViaturaIncendios(int id)
+        {
+            bool existe = false;
+            foreach (Incendio incendio in incendios)
+            {
+                existe = incendio.VerificarViaturaExisteNoIncendio(id);
+            }
+            return existe;
+        }
+
+        public static bool AdicionarViaturaIncendio(int idViatura, int idIncendio)
+        {
+            foreach(Incendio incendio in incendios)
+            {
+                if (incendio.Id == idIncendio)
+                {
+                    return(incendio.AdicionarViatura(idViatura));
+                }
+            }
+            return false;
+        }
 
         #endregion
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using ViaturaBR;
 using ViaturaBO;
+using IncendioBR;
 
 namespace ViaturaInput
 {
@@ -55,6 +56,16 @@ namespace ViaturaInput
             Console.WriteLine("ID viatura: ");
             int idViatura = int.Parse(Console.ReadLine());
             return (ViaturaRegras.RemoveViatura(ViaturaRegras.DevolveViaturaPeloId(idViatura)));
+        }
+
+        public static bool AdicionarViaturaIncendio()
+        {
+            Console.WriteLine("ID incendio");
+            int idIncendio = int.Parse(Console.ReadLine());
+            Console.WriteLine("ID viatura");
+            int idViatura = int.Parse(Console.ReadLine());
+
+            return (IncendioRegras.AdicionarViaturaAIncendio(idViatura, idIncendio));
         }
     }
 }

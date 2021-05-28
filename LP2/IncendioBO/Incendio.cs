@@ -153,9 +153,7 @@ namespace IncendioBO
         /// <returns>True se removeu, False se não removeu</returns>
         public bool RemoverOperacional(int id)
         {
-            if (operacionaisIDs.Remove(id))
-                return true;
-            return false;
+            return (operacionaisIDs.Remove(id));
         }
 
         /// <summary>
@@ -174,9 +172,38 @@ namespace IncendioBO
             return false;
         }
 
-        
+        public bool AdicionarViatura(int id)
+        {
+            //"por fora", confirmar se ja existe a viatura nas viaturas!
+            if (VerificarViaturaExisteNoIncendio(id))
+               return false;
+            else
+            {
+                viaturasIDs.Add(id);
+                return true;
+            }
 
-        
+
+        }
+
+        public bool RemoveViatura(int id)
+        {
+            return (viaturasIDs.Remove(id));
+        }
+
+        public bool VerificarViaturaExisteNoIncendio(int id)
+        {
+            foreach(int idViatura in viaturasIDs)
+            {
+                if (idViatura == id)
+                    return true;
+            }
+            return false;
+        }
+
+
+
+
 
         #endregion
     }

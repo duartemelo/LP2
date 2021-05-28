@@ -4,8 +4,6 @@
 2. Remover corporação
 3. Ver corporações
 
-//alterar stuff
-
 --- OPERACIONAL ---
 
 4. Adicionar operacional
@@ -14,29 +12,28 @@
 7. Alterar cargo operacional
 8. Alterar salario operacional
 9. Remove operacional de corporação
-10. Ver operacionais
-
-//alterar stuff, datanasc, estado, nome, cargo...
+10. Inativar operacional (tira de corporação!)
+11. Ver operacionais
 
 --- VIATURA --- 
 
-11. Adicionar viatura
-12. Remover viatura
-13. Adicionar viatura a incêndio
-14. Ver viaturas
+12. Adicionar viatura
+13. Remover viatura
+14. Adicionar viatura a incêndio
+15. Ver viaturas
 
  
 //alterar stuff
 
 -- INCÊNDIO --
 
-15. Adicionar incêndio
-16. Adicionar/alterar data de fim de incêndio (altera o estado também)
-17. Remover incêndio
-18. Adicionar operacional a incêndio
-19. Remover operacional de um incêndio
-20. Ver informações incêndio
-21. Ver incêndios
+16. Adicionar incêndio
+17. Adicionar/alterar data de fim de incêndio (altera o estado também)
+18. Remover incêndio
+19. Adicionar operacional a incêndio
+20. Remover operacional de um incêndio
+21. Ver informações incêndio
+22. Ver incêndios
 
 30. clear console
 31. exit

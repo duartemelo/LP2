@@ -76,46 +76,49 @@ namespace Menu
                     OperacionalInputs.RemoveOperacionalDeCorp();
                     break;
                 case 10:
+                    OperacionalInputs.InativarOper();
+                    break;
+                case 11:
                     OperacionalRegras.MostraOperacionais();
                     break;
 
                 //VIATURAS
 
-                case 11:
+                case 12:
                     ViaturaInputs.CriarViatura();
                     break;
-                case 12:
+                case 13:
                     ViaturaInputs.RemoveViatura();
                     break;
-                case 13:
-                    //to do 
-                    break;
                 case 14:
+                    ViaturaInputs.AdicionarViaturaIncendio();
+                    break;
+                case 15:
                     ViaturaRegras.MostraViaturas();
                     break;
                 //INCENDIOS
 
-                case 15:
+                case 16:
                     IncendioInputs.CriarIncendio();
                     //IncendioRegras.MostraIncendios();
                     
                     break;
-                case 16:
+                case 17:
                     IncendioInputs.AlterarHoraFimIncendio();
                     break;
-                case 17:
+                case 18:
                     IncendioInputs.RemoveIncendio();
                     break;
-                case 18:
+                case 19:
                     IncendioInputs.AdicionaOperacional();
                     break;
-                case 19:
+                case 20:
                     IncendioInputs.RemoveOperacional();
                     break;
-                case 20:
+                case 21:
                     IncendioInputs.MostraInformacoesIncendio(); //missing exception! se tentar ver quando nao ha incendios!
                     break;
-                case 21:
+                case 22:
                     IncendioRegras.MostraIncendios();
                     break;
 

@@ -7,6 +7,7 @@ using IncendioBO;
 using IncendioData;
 using GeneralOutputs;
 using OperacionalBR;
+using ViaturaBR;
 
 namespace IncendioBR
 {
@@ -128,6 +129,22 @@ namespace IncendioBR
         public static bool AlterarHoraFimIncendio(int idIncendio, DateTime horaFim)
         {
             return (IncendioDados.AlterarHoraFimIncendio(idIncendio, horaFim));
+        }
+
+       
+
+        public static bool AdicionarViaturaAIncendio(int idViatura, int idIncendio)
+        {
+            //existe!
+            if (ViaturaRegras.DevolveViaturaPeloId(idViatura) != null)
+            {
+                //nao esta em nenhum incendio!
+                if (IncendioDados.VerificaViaturaIncendios(idViatura) != true)
+                {
+                    return (IncendioDados.AdicionarViaturaIncendio(idViatura, idIncendio));
+                }
+            }
+            return false;
         }
 
 

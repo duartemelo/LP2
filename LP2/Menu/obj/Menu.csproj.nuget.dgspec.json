@@ -469,6 +469,9 @@
               },
               "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBR\\OperacionalBR.csproj": {
                 "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBR\\OperacionalBR.csproj"
+              },
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBR\\ViaturaBR.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBR\\ViaturaBR.csproj"
               }
             }
           }
@@ -1306,6 +1309,9 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
+              "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj": {
+                "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj"
+              },
               "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
                 "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
               },

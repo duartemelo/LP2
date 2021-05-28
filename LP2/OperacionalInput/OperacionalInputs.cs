@@ -80,6 +80,13 @@ namespace OperacionalInput
             return OperacionalRegras.RemoveOperacionalDeCorporacao(idOper);
         }
 
+        public static bool InativarOper()
+        {
+            Console.WriteLine("ID operacional: ");
+            int id = int.Parse(Console.ReadLine());
+            return OperacionalRegras.InativarOper(id);
+        }
+
 
     }
 }

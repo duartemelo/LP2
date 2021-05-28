@@ -26,6 +26,59 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "CorporacaoBO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CorporacaoBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CorporacaoBO.dll": {}
+        }
+      },
+      "CorporacaoBR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CorporacaoBO": "1.0.0",
+          "CorporacaoData": "1.0.0",
+          "CorporacaoOutput": "1.0.0",
+          "GeneralOutputs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CorporacaoBR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CorporacaoBR.dll": {}
+        }
+      },
+      "CorporacaoData/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CorporacaoBO": "1.0.0",
+          "CorporacaoOutput": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CorporacaoData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CorporacaoData.dll": {}
+        }
+      },
+      "CorporacaoOutput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CorporacaoBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CorporacaoOutput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CorporacaoOutput.dll": {}
+        }
+      },
       "GeneralOutputs/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -34,6 +87,113 @@
         },
         "runtime": {
           "bin/placeholder/GeneralOutputs.dll": {}
+        }
+      },
+      "IncendioBO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/IncendioBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IncendioBO.dll": {}
+        }
+      },
+      "IncendioBR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GeneralOutputs": "1.0.0",
+          "IncendioBO": "1.0.0",
+          "IncendioData": "1.0.0",
+          "OperacionalBR": "1.0.0",
+          "ViaturaBR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IncendioBR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IncendioBR.dll": {}
+        }
+      },
+      "IncendioData/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "IncendioBO": "1.0.0",
+          "IncendioOutput": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IncendioData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IncendioData.dll": {}
+        }
+      },
+      "IncendioOutput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "IncendioBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IncendioOutput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IncendioOutput.dll": {}
+        }
+      },
+      "OperacionalBO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/OperacionalBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalBO.dll": {}
+        }
+      },
+      "OperacionalBR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CorporacaoBR": "1.0.0",
+          "GeneralOutputs": "1.0.0",
+          "OperacionalBO": "1.0.0",
+          "OperacionalData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OperacionalBR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalBR.dll": {}
+        }
+      },
+      "OperacionalData/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OperacionalBO": "1.0.0",
+          "OperacionalOutput": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OperacionalData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalData.dll": {}
+        }
+      },
+      "OperacionalOutput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OperacionalBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OperacionalOutput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalOutput.dll": {}
         }
       },
       "ViaturaBO/1.0.0": {
@@ -235,10 +395,70 @@
         "netstandard.library.nuspec"
       ]
     },
+    "CorporacaoBO/1.0.0": {
+      "type": "project",
+      "path": "../CorporacoesBO/CorporacaoBO.csproj",
+      "msbuildProject": "../CorporacoesBO/CorporacaoBO.csproj"
+    },
+    "CorporacaoBR/1.0.0": {
+      "type": "project",
+      "path": "../CorporacaoBR/CorporacaoBR.csproj",
+      "msbuildProject": "../CorporacaoBR/CorporacaoBR.csproj"
+    },
+    "CorporacaoData/1.0.0": {
+      "type": "project",
+      "path": "../CorporacaoData/CorporacaoData.csproj",
+      "msbuildProject": "../CorporacaoData/CorporacaoData.csproj"
+    },
+    "CorporacaoOutput/1.0.0": {
+      "type": "project",
+      "path": "../CorporacaoOutput/CorporacaoOutput.csproj",
+      "msbuildProject": "../CorporacaoOutput/CorporacaoOutput.csproj"
+    },
     "GeneralOutputs/1.0.0": {
       "type": "project",
       "path": "../GeneralOutputs/GeneralOutputs.csproj",
       "msbuildProject": "../GeneralOutputs/GeneralOutputs.csproj"
+    },
+    "IncendioBO/1.0.0": {
+      "type": "project",
+      "path": "../IncendioBO/IncendioBO.csproj",
+      "msbuildProject": "../IncendioBO/IncendioBO.csproj"
+    },
+    "IncendioBR/1.0.0": {
+      "type": "project",
+      "path": "../IncendioBR/IncendioBR.csproj",
+      "msbuildProject": "../IncendioBR/IncendioBR.csproj"
+    },
+    "IncendioData/1.0.0": {
+      "type": "project",
+      "path": "../IncendioData/IncendioData.csproj",
+      "msbuildProject": "../IncendioData/IncendioData.csproj"
+    },
+    "IncendioOutput/1.0.0": {
+      "type": "project",
+      "path": "../IncendioOutput/IncendioOutput.csproj",
+      "msbuildProject": "../IncendioOutput/IncendioOutput.csproj"
+    },
+    "OperacionalBO/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalBO/OperacionalBO.csproj",
+      "msbuildProject": "../OperacionalBO/OperacionalBO.csproj"
+    },
+    "OperacionalBR/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalBR/OperacionalBR.csproj",
+      "msbuildProject": "../OperacionalBR/OperacionalBR.csproj"
+    },
+    "OperacionalData/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalData/OperacionalData.csproj",
+      "msbuildProject": "../OperacionalData/OperacionalData.csproj"
+    },
+    "OperacionalOutput/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalOutput/OperacionalOutput.csproj",
+      "msbuildProject": "../OperacionalOutput/OperacionalOutput.csproj"
     },
     "ViaturaBO/1.0.0": {
       "type": "project",
@@ -263,6 +483,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "IncendioBR >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "ViaturaBO >= 1.0.0",
       "ViaturaBR >= 1.0.0"
@@ -295,6 +516,9 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj"
+            },
             "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj": {
               "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBO\\ViaturaBO.csproj"
             },

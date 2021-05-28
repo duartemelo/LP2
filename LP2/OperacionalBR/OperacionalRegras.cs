@@ -86,5 +86,10 @@ namespace OperacionalBR
         {
             return (OperacionalDados.AlterarSalarioOper(idOper, novoSalario));
         }
+
+        public static bool InativarOper(int idOper)
+        {
+            return (OperacionalDados.InativarOper(idOper));
+        }
     }
 }

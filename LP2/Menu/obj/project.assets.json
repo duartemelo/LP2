@@ -120,7 +120,8 @@
           "GeneralOutputs": "1.0.0",
           "IncendioBO": "1.0.0",
           "IncendioData": "1.0.0",
-          "OperacionalBR": "1.0.0"
+          "OperacionalBR": "1.0.0",
+          "ViaturaBR": "1.0.0"
         },
         "compile": {
           "bin/placeholder/IncendioBR.dll": {}
@@ -281,6 +282,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "IncendioBR": "1.0.0",
           "ViaturaBO": "1.0.0",
           "ViaturaBR": "1.0.0"
         },

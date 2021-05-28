@@ -9,6 +9,7 @@
     <ProjectReference Include="..\IncendioBO\IncendioBO.csproj" />
     <ProjectReference Include="..\IncendioData\IncendioData.csproj" />
     <ProjectReference Include="..\OperacionalBR\OperacionalBR.csproj" />
+    <ProjectReference Include="..\ViaturaBR\ViaturaBR.csproj" />
   </ItemGroup>
 
 </Project>

@@ -150,6 +150,20 @@ namespace OperacionalData
             return false;
         }
 
+        public static bool InativarOper(int idOper)
+        {
+            foreach(Operacional operacional in operacionais)
+            {
+                if (operacional.Id == idOper)
+                {
+                    operacional.Estado = EstadoOperacional.Inativo;
+                    operacional.CorporacaoID = 0;
+                    return true;
+                }
+            }
+            return false;
+        }
+
         #endregion
     }
 }
