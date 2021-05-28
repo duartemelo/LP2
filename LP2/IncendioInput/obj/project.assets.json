@@ -412,6 +412,7 @@
     ".NETStandard,Version=v2.0": [
       "IncendioBO >= 1.0.0",
       "IncendioBR >= 1.0.0",
+      "IncendioOutput >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -447,6 +448,9 @@
             },
             "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj": {
               "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioOutput\\IncendioOutput.csproj"
             }
           }
         }

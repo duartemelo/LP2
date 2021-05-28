@@ -33,5 +33,7 @@ namespace IncendioOutput
                 MostraIncendio(incendio);
             }
         }
+
+
     }
 }

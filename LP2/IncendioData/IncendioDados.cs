@@ -141,8 +141,20 @@ namespace IncendioData
             {
                 if (incendio.Id == idIncendio)
                 {
-                    incendio.AdicionarOperacional(idOper);
-                    return true;
+                    return(incendio.AdicionarOperacional(idOper));
+                    
+                }
+            }
+            return false;
+        }
+
+        public static bool RemoveOperacionalIncendioID(int idOper, int idIncendio)
+        {
+            foreach(Incendio incendio in incendios)
+            {
+                if (incendio.Id == idIncendio)
+                {
+                    return (incendio.RemoverOperacional(idOper));
                 }
             }
             return false;

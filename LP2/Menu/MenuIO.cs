@@ -37,26 +37,37 @@ namespace Menu
             int opcao = int.Parse(Console.ReadLine());
             switch (opcao)
             {
-                case 1:
+                case 10:
                     IncendioInputs.CriarIncendio();
                     IncendioRegras.MostraIncendios();
                     
                     break;
-                case 2:
+                case 11:
                     IncendioInputs.AlterarHoraFimIncendio();
                     break;
-                case 3:
+                case 12:
                     IncendioInputs.RemoveIncendio();
                     break;
-                    
-
-
-
-                case 8:
+                case 13:
+                    IncendioInputs.AdicionaOperacional();
+                    break;
+                case 14:
+                    IncendioInputs.RemoveOperacional();
+                    break;
+                case 15:
+                    IncendioInputs.MostraInformacoesIncendio(); //missing exception! se tentar ver quando nao ha incendios!
+                    break;
+                case 16:
                     IncendioRegras.MostraIncendios();
                     break;
+
+
+                //tests
                 case 30:
                     Console.Clear();
+                    break;
+                case 31:
+                    Environment.Exit(0);
                     break;
 
                 default:

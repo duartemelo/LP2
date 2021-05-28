@@ -1,6 +1,7 @@
 ﻿using System;
 using IncendioBO;
 using IncendioBR;
+using IncendioOutput;
 
 namespace IncendioInput
 {
@@ -74,6 +75,40 @@ namespace IncendioInput
             Console.WriteLine("ID incêndio: ");
             int id = int.Parse(Console.ReadLine());
             return (IncendioRegras.RemoveIncendio(IncendioRegras.DevolveIncendioPeloId(id)));
+        }
+
+        public static bool AdicionaOperacional()
+        {
+            Console.WriteLine("ID incendio:");
+            int idIncendio = int.Parse(Console.ReadLine());
+            Console.WriteLine("ID operacional:");
+            int idOper = int.Parse(Console.ReadLine());
+
+            return (IncendioRegras.AdicionarOperacionalIncendio(idOper, idIncendio));
+        }
+        public static bool RemoveOperacional()
+        {
+            Console.WriteLine("ID incendio:");
+            int idIncendio = int.Parse(Console.ReadLine());
+            Console.WriteLine("ID operacional");
+            int idOper = int.Parse(Console.ReadLine());
+
+            return (IncendioRegras.RemoveOperacionalIncendio(idOper, idIncendio));
+        }
+
+        public static void MostraInformacoesIncendio()
+        {
+            Console.WriteLine("ID incendio: ");
+            int idIncendio = int.Parse(Console.ReadLine());
+            if (IncendioRegras.DevolveIncendioPeloId(idIncendio) == null)
+            {
+                Console.WriteLine("ID incendio: ");
+                idIncendio = int.Parse(Console.ReadLine());
+            }
+            IncendioEscreve.MostraIncendio(IncendioRegras.DevolveIncendioPeloId(idIncendio));
+            
+           
+            
         }
     }
 }

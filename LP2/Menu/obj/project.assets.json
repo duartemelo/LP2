@@ -134,7 +134,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "IncendioBO": "1.0.0",
-          "IncendioBR": "1.0.0"
+          "IncendioBR": "1.0.0",
+          "IncendioOutput": "1.0.0"
         },
         "compile": {
           "bin/placeholder/IncendioInput.dll": {}

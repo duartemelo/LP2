@@ -120,6 +120,11 @@ namespace IncendioBR
             return false;
         }
 
+        public static bool RemoveOperacionalIncendio(int idOper, int idIncendio)
+        {
+            return (IncendioDados.RemoveOperacionalIncendioID(idOper, idIncendio));
+        }
+
         public static bool AlterarHoraFimIncendio(int idIncendio, DateTime horaFim)
         {
             return (IncendioDados.AlterarHoraFimIncendio(idIncendio, horaFim));

@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\IncendioBO\IncendioBO.csproj" />
     <ProjectReference Include="..\IncendioBR\IncendioBR.csproj" />
+    <ProjectReference Include="..\IncendioOutput\IncendioOutput.csproj" />
   </ItemGroup>
 
 </Project>
