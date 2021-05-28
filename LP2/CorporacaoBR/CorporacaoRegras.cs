@@ -81,6 +81,11 @@ namespace CorporacaoBR
             return CorporacaoDados.VerificarCorporacaoExiste(id);
         }
 
+        public static Corporacao DevolveCorporacaoPeloId(int id)
+        {
+            return CorporacaoDados.ObterCorporacaoPeloId(id);
+        }
+
 
     }
 }

@@ -67,9 +67,24 @@ namespace OperacionalBR
             return false;
         }
 
+        public static bool RemoveOperacionalDeCorporacao(int idOper)
+        {
+            return OperacionalDados.RemoveOperacionalDeCorporacao(idOper);
+        }
+
         public static Operacional DevolveOperacionalPeloId(int idOper)
         {
             return (OperacionalDados.DevolveOperacionalPeloId(idOper));
+        }
+
+        public static bool AlterarCargoOper(int idOper, string novoCargo)
+        {
+            return (OperacionalDados.AlterarCargoOper(idOper, novoCargo));
+        }
+
+        public static bool AlterarSalarioOper(int idOper, float novoSalario)
+        {
+            return (OperacionalDados.AlterarSalarioOper(idOper, novoSalario));
         }
     }
 }

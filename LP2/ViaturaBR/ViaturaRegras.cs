@@ -56,5 +56,10 @@ namespace ViaturaBR
         {
             ViaturaDados.MostraViaturas();
         }
+
+        public static Viatura DevolveViaturaPeloId(int id)
+        {
+            return ViaturaDados.DevolveViaturaPeloId(id);
+        }
     }
 }

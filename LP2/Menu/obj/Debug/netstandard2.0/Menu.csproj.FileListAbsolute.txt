@@ -36,3 +36,7 @@ D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\OperacionalData.pdb
 D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\OperacionalOutput.pdb
 D:\IPCA\TrabalhoLP2\LP2\Menu\obj\Debug\netstandard2.0\Menu.csprojAssemblyReference.cache
 D:\IPCA\TrabalhoLP2\LP2\Menu\obj\Debug\netstandard2.0\Menu.csproj.CopyComplete
+D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\CorporacaoInput.dll
+D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\OperacionalInput.dll
+D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\CorporacaoInput.pdb
+D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\OperacionalInput.pdb

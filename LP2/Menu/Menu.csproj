@@ -5,8 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CorporacaoBR\CorporacaoBR.csproj" />
+    <ProjectReference Include="..\CorporacaoInput\CorporacaoInput.csproj" />
     <ProjectReference Include="..\IncendioBR\IncendioBR.csproj" />
     <ProjectReference Include="..\IncendioInput\IncendioInput.csproj" />
+    <ProjectReference Include="..\OperacionalBR\OperacionalBR.csproj" />
+    <ProjectReference Include="..\OperacionalInput\OperacionalInput.csproj" />
+    <ProjectReference Include="..\ViaturaBR\ViaturaBR.csproj" />
+    <ProjectReference Include="..\ViaturaInput\ViaturaInput.csproj" />
   </ItemGroup>
 
 </Project>

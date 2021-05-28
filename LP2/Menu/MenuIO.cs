@@ -1,8 +1,13 @@
-﻿using System;
-using System.IO;
+﻿using IncendioBR;
 using IncendioInput;
-using IncendioBR;
-using System.Threading;
+using System;
+using System.IO;
+using CorporacaoBR;
+using CorporacaoInput;
+using OperacionalBR;
+using OperacionalInput;
+using ViaturaBR;
+using ViaturaInput;
 
 namespace Menu
 {
@@ -37,27 +42,80 @@ namespace Menu
             int opcao = int.Parse(Console.ReadLine());
             switch (opcao)
             {
-                case 10:
-                    IncendioInputs.CriarIncendio();
-                    IncendioRegras.MostraIncendios();
-                    
+
+                //CORPORAÇOES
+                case 1:
+                    CorporacaoInputs.CriarCorporacao();
+                    //CorporacaoRegras.MostraCorporacoes();
                     break;
+                case 2:
+                    CorporacaoInputs.RemoveCorporacao();
+                    break;
+                case 3:
+                    CorporacaoRegras.MostraCorporacoes();
+                    break;
+
+               //OPERACIONAIS
+
+                case 4:
+                    OperacionalInputs.CriarOperacional();
+                    break;
+                case 5:
+                    OperacionalInputs.RemoveOperacional();
+                    break;
+                case 6:
+                    OperacionalInputs.AdicionarOperacionalACorp();
+                    break;
+                case 7:
+                    OperacionalInputs.AlterarCargoOper();
+                    break;
+                case 8:
+                    OperacionalInputs.AlterarSalarioOper();
+                    break;
+                case 9:
+                    OperacionalInputs.RemoveOperacionalDeCorp();
+                    break;
+                case 10:
+                    OperacionalRegras.MostraOperacionais();
+                    break;
+
+                //VIATURAS
+
                 case 11:
-                    IncendioInputs.AlterarHoraFimIncendio();
+                    ViaturaInputs.CriarViatura();
                     break;
                 case 12:
-                    IncendioInputs.RemoveIncendio();
+                    ViaturaInputs.RemoveViatura();
                     break;
                 case 13:
-                    IncendioInputs.AdicionaOperacional();
+                    //to do 
                     break;
                 case 14:
-                    IncendioInputs.RemoveOperacional();
+                    ViaturaRegras.MostraViaturas();
                     break;
+                //INCENDIOS
+
                 case 15:
-                    IncendioInputs.MostraInformacoesIncendio(); //missing exception! se tentar ver quando nao ha incendios!
+                    IncendioInputs.CriarIncendio();
+                    //IncendioRegras.MostraIncendios();
+                    
                     break;
                 case 16:
+                    IncendioInputs.AlterarHoraFimIncendio();
+                    break;
+                case 17:
+                    IncendioInputs.RemoveIncendio();
+                    break;
+                case 18:
+                    IncendioInputs.AdicionaOperacional();
+                    break;
+                case 19:
+                    IncendioInputs.RemoveOperacional();
+                    break;
+                case 20:
+                    IncendioInputs.MostraInformacoesIncendio(); //missing exception! se tentar ver quando nao ha incendios!
+                    break;
+                case 21:
                     IncendioRegras.MostraIncendios();
                     break;
 

@@ -13,14 +13,15 @@ namespace IncendioInput
 
             Console.WriteLine("Tipo de incêndio? Florestal ou urbano?");
             string tipo = Console.ReadLine();
-
-            while (tipo.ToLower() != "florestal" && tipo.ToLower() != "urbano")
+            tipo = tipo.ToLower();
+            while (tipo != "florestal" && tipo != "urbano")
             {
                 Console.WriteLine("Tipo de incêndio? Florestal ou urbano?");
                 tipo = Console.ReadLine();
+                tipo = tipo.ToLower();
             }
 
-            tipo.ToLower();
+            
             if (tipo == "florestal")
                 i1.Tipo = TipoIncendio.Florestal;
             else if (tipo == "urbano")
@@ -55,11 +56,11 @@ namespace IncendioInput
                 i1.Estado = EstadoIncendio.Extinto;
             }
 
-            IncendioRegras.InsereIncendio(i1);
+            return(IncendioRegras.InsereIncendio(i1));
 
 
 
-            return true;
+            
         }
         public static bool AlterarHoraFimIncendio()
         {

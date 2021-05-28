@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IPkibpZG9tstC39sXF6gpa5LVpjjQrvYOoZgMp8qMCb+Rk8KQuSlzNF6GzqV+RORBUL5y605QGvBeaU0MIh6UA==",
+  "success": true,
+  "projectFilePath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalInput\\OperacionalInput.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duart\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\duart\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

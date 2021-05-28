@@ -96,6 +96,18 @@ namespace ViaturaData
             ViaturaEscreve.MostraViaturas(viaturas);  
         }
 
+        public static Viatura DevolveViaturaPeloId(int id)
+        {
+            foreach(Viatura viatura in viaturas)
+            {
+                if (viatura.Id == id)
+                {
+                    return viatura;
+                }
+            }
+            return null;
+        }
+
         #endregion
     }
 }

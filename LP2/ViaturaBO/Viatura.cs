@@ -5,13 +5,13 @@
 
 namespace ViaturaBO
 {
-    public enum Estado
+    public enum EstadoViatura
     {
         Ativo,
         Inativo
     }
 
-    public enum Tipo
+    public enum TipoViatura
     {
         Mota,
         Carro,
@@ -23,11 +23,11 @@ namespace ViaturaBO
         #region Attributes
         private int id;
         private int corporacaoID;
-        private Tipo tipoViatura;
+        private TipoViatura tipoViatura;
         private string matricula;
         private string marca;
         private string modelo;
-        private Estado estadoViatura;
+        private EstadoViatura estadoViatura;
         #endregion
 
         #region Constructors
@@ -53,7 +53,7 @@ namespace ViaturaBO
             set => corporacaoID = value;
         }
 
-        public Tipo TipoViatura
+        public TipoViatura TipoViatura
         {
             get => tipoViatura;
             set => tipoViatura = value;
@@ -77,7 +77,7 @@ namespace ViaturaBO
             set => modelo = value;
         }
 
-        public Estado EstadoViatura
+        public EstadoViatura EstadoViatura
         {
             get => estadoViatura;
             set => estadoViatura = value;

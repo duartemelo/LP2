@@ -66,6 +66,20 @@
           "bin/placeholder/CorporacaoData.dll": {}
         }
       },
+      "CorporacaoInput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CorporacaoBO": "1.0.0",
+          "CorporacaoBR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CorporacaoInput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CorporacaoInput.dll": {}
+        }
+      },
       "CorporacaoOutput/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -197,6 +211,20 @@
           "bin/placeholder/OperacionalData.dll": {}
         }
       },
+      "OperacionalInput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OperacionalBO": "1.0.0",
+          "OperacionalBR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OperacionalInput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OperacionalInput.dll": {}
+        }
+      },
       "OperacionalOutput/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -208,6 +236,72 @@
         },
         "runtime": {
           "bin/placeholder/OperacionalOutput.dll": {}
+        }
+      },
+      "ViaturaBO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ViaturaBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaBO.dll": {}
+        }
+      },
+      "ViaturaBR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GeneralOutputs": "1.0.0",
+          "ViaturaBO": "1.0.0",
+          "ViaturaData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaturaBR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaBR.dll": {}
+        }
+      },
+      "ViaturaData/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ViaturaBO": "1.0.0",
+          "ViaturaOutput": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaturaData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaData.dll": {}
+        }
+      },
+      "ViaturaInput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ViaturaBO": "1.0.0",
+          "ViaturaBR": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaturaInput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaInput.dll": {}
+        }
+      },
+      "ViaturaOutput/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ViaturaBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaturaOutput.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaturaOutput.dll": {}
         }
       }
     }
@@ -372,6 +466,11 @@
       "path": "../CorporacaoData/CorporacaoData.csproj",
       "msbuildProject": "../CorporacaoData/CorporacaoData.csproj"
     },
+    "CorporacaoInput/1.0.0": {
+      "type": "project",
+      "path": "../CorporacaoInput/CorporacaoInput.csproj",
+      "msbuildProject": "../CorporacaoInput/CorporacaoInput.csproj"
+    },
     "CorporacaoOutput/1.0.0": {
       "type": "project",
       "path": "../CorporacaoOutput/CorporacaoOutput.csproj",
@@ -422,17 +521,53 @@
       "path": "../OperacionalData/OperacionalData.csproj",
       "msbuildProject": "../OperacionalData/OperacionalData.csproj"
     },
+    "OperacionalInput/1.0.0": {
+      "type": "project",
+      "path": "../OperacionalInput/OperacionalInput.csproj",
+      "msbuildProject": "../OperacionalInput/OperacionalInput.csproj"
+    },
     "OperacionalOutput/1.0.0": {
       "type": "project",
       "path": "../OperacionalOutput/OperacionalOutput.csproj",
       "msbuildProject": "../OperacionalOutput/OperacionalOutput.csproj"
+    },
+    "ViaturaBO/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaBO/ViaturaBO.csproj",
+      "msbuildProject": "../ViaturaBO/ViaturaBO.csproj"
+    },
+    "ViaturaBR/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaBR/ViaturaBR.csproj",
+      "msbuildProject": "../ViaturaBR/ViaturaBR.csproj"
+    },
+    "ViaturaData/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaData/ViaturaData.csproj",
+      "msbuildProject": "../ViaturaData/ViaturaData.csproj"
+    },
+    "ViaturaInput/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaInput/ViaturaInput.csproj",
+      "msbuildProject": "../ViaturaInput/ViaturaInput.csproj"
+    },
+    "ViaturaOutput/1.0.0": {
+      "type": "project",
+      "path": "../ViaturaOutput/ViaturaOutput.csproj",
+      "msbuildProject": "../ViaturaOutput/ViaturaOutput.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "CorporacaoBR >= 1.0.0",
+      "CorporacaoInput >= 1.0.0",
       "IncendioBR >= 1.0.0",
       "IncendioInput >= 1.0.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "OperacionalBR >= 1.0.0",
+      "OperacionalInput >= 1.0.0",
+      "ViaturaBR >= 1.0.0",
+      "ViaturaInput >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -462,11 +597,29 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoBR\\CorporacaoBR.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoInput\\CorporacaoInput.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\CorporacaoInput\\CorporacaoInput.csproj"
+            },
             "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj": {
               "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioBR\\IncendioBR.csproj"
             },
             "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioInput\\IncendioInput.csproj": {
               "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\IncendioInput\\IncendioInput.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBR\\OperacionalBR.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalBR\\OperacionalBR.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalInput\\OperacionalInput.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\OperacionalInput\\OperacionalInput.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBR\\ViaturaBR.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaBR\\ViaturaBR.csproj"
+            },
+            "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaInput\\ViaturaInput.csproj": {
+              "projectPath": "D:\\IPCA\\TrabalhoLP2\\LP2\\ViaturaInput\\ViaturaInput.csproj"
             }
           }
         }

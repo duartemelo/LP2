@@ -70,3 +70,7 @@ D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\Menu.dll
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\Menu.pdb
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\IncendioInput.dll
 D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\IncendioInput.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoInput.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\OperacionalInput.dll
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\CorporacaoInput.pdb
+D:\IPCA\TrabalhoLP2\LP2\LP2\bin\Debug\OperacionalInput.pdb

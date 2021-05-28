@@ -78,8 +78,12 @@ namespace OperacionalData
             {
                 if(operacional.Id == idOper)
                 {
-                    operacional.CorporacaoID = idCorp;
-                    return true;
+                    if (operacional.Estado == EstadoOperacional.Ativo)
+                    {
+                        operacional.CorporacaoID = idCorp;
+                        return true;
+                    }
+                    
                 }
             }
             return false;
@@ -98,6 +102,52 @@ namespace OperacionalData
                 }
             }
             return null;
+        }
+
+        public static bool RemoveOperacionalDeCorporacao(int idOper)
+        {
+            foreach(Operacional operacional in operacionais)
+            {
+                if (operacional.Id == idOper)
+                {
+                    operacional.CorporacaoID = 0;
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static bool AlterarCargoOper(int idOper, string novoCargo)
+        {
+            foreach(Operacional operacional in operacionais)
+            {
+                if (operacional.Id == idOper)
+                {
+                    operacional.Cargo = novoCargo;
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static bool AlterarSalarioOper(int idOper, float novoSalario)
+        {
+            foreach(Operacional operacional in operacionais)
+            {
+                if (operacional.Id == idOper)
+                {
+                    if (operacional.Estado == EstadoOperacional.Ativo)
+                    {
+                        if (operacional.CorporacaoID != 0)
+                        {
+                            operacional.Salario = novoSalario;
+                            return true;
+                        }
+                    }
+                    
+                }
+            }
+            return false;
         }
 
         #endregion
