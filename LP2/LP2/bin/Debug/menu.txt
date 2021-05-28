@@ -1,1 +1,12 @@
-TestMenuText
+-- INCÊNDIO --
+
+1. Adicionar incêndio
+2. Adicionar data de fim de incêndio
+3. Alterar estado incêndio
+4. Remover incêndio
+5. Adicionar operacional a incêndio
+6. Remover operacional de um incêndio
+7. Ver informações incêndio
+8. Ver informações detalhadas incêndio (fichas dos operacionais)
+
+
