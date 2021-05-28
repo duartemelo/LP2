@@ -2,6 +2,7 @@
 using OperacionalBO;
 using OperacionalData;
 using GeneralOutputs;
+using CorporacaoBR;
 
 
 namespace OperacionalBR
@@ -55,6 +56,20 @@ namespace OperacionalBR
         public static bool VerificaSeOperacionalExiste(int id)
         {
             return OperacionalDados.VerificaSeOperacionalExiste(id);
+        }
+
+        public static bool AdicionarOperacionalACorporacao(int idOper, int idCorp)
+        {
+            if (CorporacaoRegras.VerificarCorporacaoExiste(idCorp))
+            {
+                return(OperacionalDados.AdicionarOperacionalACorporacao(idOper, idCorp));
+            }
+            return false;
+        }
+
+        public static Operacional DevolveOperacionalPeloId(int idOper)
+        {
+            return (OperacionalDados.DevolveOperacionalPeloId(idOper));
         }
     }
 }

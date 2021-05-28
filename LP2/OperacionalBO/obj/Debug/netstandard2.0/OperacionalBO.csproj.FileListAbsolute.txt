@@ -6,3 +6,12 @@ C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\Operaciona
 C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.csproj.CoreCompileInputs.cache
 C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.dll
 C:\Users\duart\Desktop\LP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\bin\Debug\netstandard2.0\OperacionalBO.deps.json
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\bin\Debug\netstandard2.0\OperacionalBO.dll
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\bin\Debug\netstandard2.0\OperacionalBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.csprojAssemblyReference.cache
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.AssemblyInfoInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.AssemblyInfo.cs
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.csproj.CoreCompileInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.dll
+D:\IPCA\TrabalhoLP2\LP2\OperacionalBO\obj\Debug\netstandard2.0\OperacionalBO.pdb

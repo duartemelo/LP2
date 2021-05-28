@@ -10,6 +10,7 @@ using IncendioBR;
 using OperacionalBO;
 using OperacionalBR;
 using System;
+using Menu;
 
 namespace LP2
 {
@@ -53,29 +54,42 @@ namespace LP2
             Operacional o3 = new Operacional();
             o1.Cc = 12345;
             o1.Nome = "Duarte";
+            //o1.Estado = EstadoOperacional.Ativo;
+
+            
 
             o2.Cc = 12344;
             o2.Nome = "Joana";
+            //o2.Estado = EstadoOperacional.Ativo;
 
             o3.Cc = 12333;
             o3.Nome = "Barbara";
+            //o3.Estado = EstadoOperacional.Ativo;
 
             OperacionalRegras.InsereOperacional(o1);
             OperacionalRegras.InsereOperacional(o2);
             OperacionalRegras.InsereOperacional(o3);
 
-            //OperacionalRegras.MostraOperacionais();
-
-
-
-
-            IncendioRegras.AdicionarOperacionalIncendio(1, 1);
-            IncendioRegras.AdicionarOperacionalIncendio(1, 1);
-            IncendioRegras.AdicionarOperacionalIncendio(1, 2);
-
+            OperacionalRegras.AdicionarOperacionalACorporacao(1, 1);
             
 
+
+            OperacionalRegras.MostraOperacionais();
+            Console.WriteLine("----");
+
+
+
+
+            IncendioRegras.AdicionarOperacionalIncendio(1, 1);
+            IncendioRegras.AdicionarOperacionalIncendio(1, 1);
+            IncendioRegras.AdicionarOperacionalIncendio(3, 1);
+            IncendioRegras.AdicionarOperacionalIncendio(5, 1);
+
+
+
             IncendioRegras.MostraIncendios();
+
+            //MenuIO.WriteMenu();
 
 
             Console.ReadKey();

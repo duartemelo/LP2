@@ -1,0 +1,8 @@
+D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\Menu.deps.json
+D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\Menu.dll
+D:\IPCA\TrabalhoLP2\LP2\Menu\bin\Debug\netstandard2.0\Menu.pdb
+D:\IPCA\TrabalhoLP2\LP2\Menu\obj\Debug\netstandard2.0\Menu.AssemblyInfoInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\Menu\obj\Debug\netstandard2.0\Menu.AssemblyInfo.cs
+D:\IPCA\TrabalhoLP2\LP2\Menu\obj\Debug\netstandard2.0\Menu.csproj.CoreCompileInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\Menu\obj\Debug\netstandard2.0\Menu.dll
+D:\IPCA\TrabalhoLP2\LP2\Menu\obj\Debug\netstandard2.0\Menu.pdb

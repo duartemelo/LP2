@@ -41,13 +41,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViaturaOutput", "ViaturaOut
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operacional", "Operacional", "{7E74AF8D-ECF6-477F-B0C4-137720D044DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionalBO", "OperacionalBO\OperacionalBO.csproj", "{D0B7EF56-4CAE-4CC9-97E8-5991C9703C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperacionalBO", "OperacionalBO\OperacionalBO.csproj", "{D0B7EF56-4CAE-4CC9-97E8-5991C9703C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionalData", "OperacionalData\OperacionalData.csproj", "{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperacionalData", "OperacionalData\OperacionalData.csproj", "{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionalOutput", "OperacionalOutput\OperacionalOutput.csproj", "{2AC7C6D7-60A6-4100-A099-27D3421BCE8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperacionalOutput", "OperacionalOutput\OperacionalOutput.csproj", "{2AC7C6D7-60A6-4100-A099-27D3421BCE8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacionalBR", "OperacionalBR\OperacionalBR.csproj", "{50933BE1-C2E8-407C-B1A9-C89603567B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperacionalBR", "OperacionalBR\OperacionalBR.csproj", "{50933BE1-C2E8-407C-B1A9-C89603567B4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B7F6637D-013D-487F-A0E2-631943C943A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{E32FE7E9-E279-4B42-987C-EED1864ABF12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +131,10 @@ Global
 		{50933BE1-C2E8-407C-B1A9-C89603567B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50933BE1-C2E8-407C-B1A9-C89603567B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50933BE1-C2E8-407C-B1A9-C89603567B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E32FE7E9-E279-4B42-987C-EED1864ABF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32FE7E9-E279-4B42-987C-EED1864ABF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32FE7E9-E279-4B42-987C-EED1864ABF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32FE7E9-E279-4B42-987C-EED1864ABF12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +157,7 @@ Global
 		{A55D4B9D-0BE9-4ED2-8FE9-97CA1AF82E41} = {7E74AF8D-ECF6-477F-B0C4-137720D044DA}
 		{2AC7C6D7-60A6-4100-A099-27D3421BCE8D} = {7E74AF8D-ECF6-477F-B0C4-137720D044DA}
 		{50933BE1-C2E8-407C-B1A9-C89603567B4A} = {7E74AF8D-ECF6-477F-B0C4-137720D044DA}
+		{E32FE7E9-E279-4B42-987C-EED1864ABF12} = {B7F6637D-013D-487F-A0E2-631943C943A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73FA655D-2344-4000-9395-D097A1941D4B}

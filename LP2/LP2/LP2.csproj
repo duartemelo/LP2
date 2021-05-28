@@ -66,6 +66,10 @@
       <Project>{7de806bf-64b7-4f2c-bb14-8e29e3ae27f4}</Project>
       <Name>IncendioBR</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Menu\Menu.csproj">
+      <Project>{e32fe7e9-e279-4b42-987c-eed1864abf12}</Project>
+      <Name>Menu</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OperacionalBO\OperacionalBO.csproj">
       <Project>{d0b7ef56-4cae-4cc9-97e8-5991c9703c92}</Project>
       <Name>OperacionalBO</Name>

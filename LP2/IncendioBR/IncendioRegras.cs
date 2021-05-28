@@ -94,17 +94,23 @@ namespace IncendioBR
         /// <param name="idIncendio">ID incêndio onde vai adicionar o operacional</param>
         /// <param name="idOper">ID do operacional a adicionar ao incêndio</param>
         /// <returns></returns>
-        public static bool AdicionarOperacionalIncendio(int idIncendio, int idOper)
+        public static bool AdicionarOperacionalIncendio(int idOper, int idIncendio)
         {
             //operacional tem de existir!
             if (OperacionalRegras.VerificaSeOperacionalExiste(idOper))
             {
-                //nao pode estar em nenhum incendio!
-                if (VerificaOperacionalIncendios(idOper) != true)
+                //operacional tem de estar ativo!
+                if (OperacionalRegras.DevolveOperacionalPeloId(idOper).Estado == OperacionalBO.EstadoOperacional.Ativo)
                 {
-                    //adiciona operacional
-                    return IncendioDados.AdicionaOperacionalIncendioID(idIncendio, idOper);
+                    //nao pode estar em nenhum incendio!
+                    if (VerificaOperacionalIncendios(idOper) != true)
+                    {
+                        //adiciona operacional
+                        return IncendioDados.AdicionaOperacionalIncendioID(idOper, idIncendio);
+                    }
                 }
+
+                
             }
             return false;
         }

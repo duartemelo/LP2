@@ -25,6 +25,39 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
+      "CorporacaoBO/1.0.0": {
+        "runtime": {
+          "CorporacaoBO.dll": {}
+        }
+      },
+      "CorporacaoBR/1.0.0": {
+        "dependencies": {
+          "CorporacaoBO": "1.0.0",
+          "CorporacaoData": "1.0.0",
+          "CorporacaoOutput": "1.0.0",
+          "GeneralOutputs": "1.0.0"
+        },
+        "runtime": {
+          "CorporacaoBR.dll": {}
+        }
+      },
+      "CorporacaoData/1.0.0": {
+        "dependencies": {
+          "CorporacaoBO": "1.0.0",
+          "CorporacaoOutput": "1.0.0"
+        },
+        "runtime": {
+          "CorporacaoData.dll": {}
+        }
+      },
+      "CorporacaoOutput/1.0.0": {
+        "dependencies": {
+          "CorporacaoBO": "1.0.0"
+        },
+        "runtime": {
+          "CorporacaoOutput.dll": {}
+        }
+      },
       "GeneralOutputs/1.0.0": {
         "runtime": {
           "GeneralOutputs.dll": {}
@@ -59,6 +92,7 @@
       },
       "OperacionalBR/1.0.0": {
         "dependencies": {
+          "CorporacaoBR": "1.0.0",
           "GeneralOutputs": "1.0.0",
           "OperacionalBO": "1.0.0",
           "OperacionalData": "1.0.0"
@@ -105,6 +139,26 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "CorporacaoBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CorporacaoBR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CorporacaoData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CorporacaoOutput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "GeneralOutputs/1.0.0": {
       "type": "project",

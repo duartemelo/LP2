@@ -9,3 +9,15 @@ C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\Operac
 C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.csproj.CopyComplete
 C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.dll
 C:\Users\duart\Desktop\LP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.pdb
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalOutput.deps.json
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalOutput.dll
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalOutput.pdb
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalBO.dll
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\bin\Debug\netstandard2.0\OperacionalBO.pdb
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.csprojAssemblyReference.cache
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.AssemblyInfoInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.AssemblyInfo.cs
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.csproj.CoreCompileInputs.cache
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.csproj.CopyComplete
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.dll
+D:\IPCA\TrabalhoLP2\LP2\OperacionalOutput\obj\Debug\netstandard2.0\OperacionalOutput.pdb

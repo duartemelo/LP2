@@ -72,6 +72,34 @@ namespace OperacionalData
             OperacionalEscreve.MostraOperacionais(operacionais);
         }
 
+        public static bool AdicionarOperacionalACorporacao(int idOper, int idCorp)
+        {
+            foreach(Operacional operacional in operacionais)
+            {
+                if(operacional.Id == idOper)
+                {
+                    operacional.CorporacaoID = idCorp;
+                    return true;
+                }
+            }
+            return false;
+
+
+            
+        }
+
+        public static Operacional DevolveOperacionalPeloId(int idOper)
+        {
+            foreach(Operacional operacional in operacionais)
+            {
+                if(operacional.Id == idOper)
+                {
+                    return operacional;
+                }
+            }
+            return null;
+        }
+
         #endregion
     }
 }

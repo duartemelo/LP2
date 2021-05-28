@@ -134,7 +134,7 @@ namespace IncendioData
         /// <param name="idIncendio"></param>
         /// <param name="idOper"></param>
         /// <returns>True se adicionou, False se não existiu</returns>
-        public static bool AdicionaOperacionalIncendioID(int idIncendio, int idOper)
+        public static bool AdicionaOperacionalIncendioID(int idOper, int idIncendio)
         {
             foreach(Incendio incendio in incendios)
             {
