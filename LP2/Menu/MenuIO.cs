@@ -1,4 +1,9 @@
-﻿using IncendioBR;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+
+using IncendioBR;
 using IncendioInput;
 using System;
 using System.IO;
@@ -11,8 +16,15 @@ using ViaturaInput;
 
 namespace Menu
 {
+    /// <summary>
+    /// Class responsável por escrever o menu a partir de um ficheiro
+    /// Responsável também por obter a opção do user e chamar funções de "cada objeto" que interagem com o user.
+    /// </summary>
     public class MenuIO
     {
+        /// <summary>
+        /// Escreve o menu a partir do ficheiro menu.txt
+        /// </summary>
         public static void WriteMenu()
         {
             try
@@ -36,6 +48,10 @@ namespace Menu
 
         }
 
+        /// <summary>
+        /// Obtém a opção escolhida pelo user, a partir daí, chama funções front-end dos objetos respetivos.
+        /// Recursiva.
+        /// </summary>
         public static void UserInterface()
         {
             WriteMenu();

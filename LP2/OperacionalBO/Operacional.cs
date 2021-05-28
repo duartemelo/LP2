@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+using System;
 
 namespace OperacionalBO
 {
@@ -7,6 +11,12 @@ namespace OperacionalBO
         Ativo,
         Inativo
     }
+
+    /// <summary>
+    /// Objeto operacional
+    /// Criação do objeto
+    /// Devolver e alterar dados
+    /// </summary>
     public class Operacional
     {
         #region Attributes

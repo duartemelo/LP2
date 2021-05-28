@@ -1,9 +1,17 @@
-﻿using System;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+
+using System;
 using OperacionalBO;
 using OperacionalBR;
 
 namespace OperacionalInput
 {
+    /// <summary>
+    /// Class responsável pela interação com o utilizador, no que diz respeito aos operacionais
+    /// </summary>
     public class OperacionalInputs
     {
         public static bool CriarOperacional()

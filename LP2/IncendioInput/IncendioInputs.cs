@@ -5,6 +5,9 @@ using IncendioOutput;
 
 namespace IncendioInput
 {
+    /// <summary>
+    /// Class responsável pela interação com o utilizador, no que diz respeito aos incêndios
+    /// </summary>
     public class IncendioInputs
     {
         public static bool CriarIncendio()

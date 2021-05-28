@@ -148,6 +148,12 @@ namespace IncendioData
             return false;
         }
 
+        /// <summary>
+        /// Remove operacional de um incêndio, a partir dos ID de ambos
+        /// </summary>
+        /// <param name="idOper">ID operacional</param>
+        /// <param name="idIncendio">ID incendio</param>
+        /// <returns>True se removeu, False se não</returns>
         public static bool RemoveOperacionalIncendioID(int idOper, int idIncendio)
         {
             foreach(Incendio incendio in incendios)
@@ -160,6 +166,12 @@ namespace IncendioData
             return false;
         }
 
+        /// <summary>
+        /// Altera a hora de fim de um incêndio
+        /// </summary>
+        /// <param name="idIncendio">ID incendio a alterar</param>
+        /// <param name="fimIncendio">Hora de fim</param>
+        /// <returns>True se alterou, False se não</returns>
         public static bool AlterarHoraFimIncendio(int idIncendio, DateTime fimIncendio)
         {
             foreach(Incendio incendio in incendios)
@@ -177,6 +189,11 @@ namespace IncendioData
             return false;
         }
 
+        /// <summary>
+        /// Devolve um objeto incêndio a partir do seu ID
+        /// </summary>
+        /// <param name="idIncendio">ID do incêndio a procurar</param>
+        /// <returns>Obj incêndio, se existir. Caso não exista, retorna null</returns>
         public static Incendio DevolveIncendioPeloId(int idIncendio)
         {
             foreach(Incendio incendio in incendios)
@@ -188,6 +205,12 @@ namespace IncendioData
             }
             return null;
         }
+
+        /// <summary>
+        /// Verifica se uma viatura está em algum incêndio
+        /// </summary>
+        /// <param name="id">ID viatura</param>
+        /// <returns>True se existe em algum incêndio, False caso não exista</returns>
         public static bool VerificaViaturaIncendios(int id)
         {
             bool existe = false;
@@ -198,6 +221,12 @@ namespace IncendioData
             return existe;
         }
 
+        /// <summary>
+        /// Adiciona uma viatura a um incêndio
+        /// </summary>
+        /// <param name="idViatura">id da viatura a adicionar</param>
+        /// <param name="idIncendio">id do incendio a adicionar</param>
+        /// <returns></returns>
         public static bool AdicionarViaturaIncendio(int idViatura, int idIncendio)
         {
             foreach(Incendio incendio in incendios)

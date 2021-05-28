@@ -38,7 +38,7 @@ namespace CorporacaoBO
         public int Id
         {
             get => id;
-            set => id = value; //perigoso??
+            set => id = value; 
         }
 
         public string Freguesia

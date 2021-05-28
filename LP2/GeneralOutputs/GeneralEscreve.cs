@@ -10,6 +10,7 @@ namespace GeneralOutputs
     /// <summary>
     /// Class / Library que é responsável por outputs gerais.
     /// Feito para manter o código consistente, os outputs nos sítios onde devem estar (separados das funções).
+    /// Possivelmente será obsoleta com criação de exceptions.
     /// </summary>
     public class GeneralEscreve
     {

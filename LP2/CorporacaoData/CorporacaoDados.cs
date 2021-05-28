@@ -85,6 +85,11 @@ namespace CorporacaoData
             return false;
         }
 
+        /// <summary>
+        /// Verifica se uma corporação existe na lista de corporações
+        /// </summary>
+        /// <param name="id">ID corporação a confirmar</param>
+        /// <returns>True se existe, False se não existe</returns>
         public static bool VerificarCorporacaoExiste(int id)
         {
             foreach(Corporacao corporacao in corporacoes)

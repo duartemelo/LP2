@@ -55,6 +55,12 @@ namespace IncendioBR
             }
         }
 
+        /// <summary>
+        /// Devolve objeto incêndio a partir do seu ID.
+        /// Chama função da class IncendioDados (a que tem acesso à lista)
+        /// </summary>
+        /// <param name="idIncendio">ID incendio a devolver</param>
+        /// <returns>Retorna o objeto incendio, caso exista. Caso não exista, retorna null.</returns>
         public static Incendio DevolveIncendioPeloId(int idIncendio)
         {
             return (IncendioDados.DevolveIncendioPeloId(idIncendio));
@@ -121,18 +127,36 @@ namespace IncendioBR
             return false;
         }
 
+        /// <summary>
+        /// Remove operacional de um incêndio
+        /// Chama função da class incendioDados (que consegue aceder à lista)
+        /// </summary>
+        /// <param name="idOper">ID operacional</param>
+        /// <param name="idIncendio">ID incendio</param>
+        /// <returns>True se removeu, False se não</returns>
         public static bool RemoveOperacionalIncendio(int idOper, int idIncendio)
         {
             return (IncendioDados.RemoveOperacionalIncendioID(idOper, idIncendio));
         }
 
+        /// <summary>
+        /// Altera a hora de fim de um incêndio
+        /// </summary>
+        /// <param name="idIncendio">ID incêndio a alterar</param>
+        /// <param name="horaFim">Hora de término</param>
+        /// <returns>True se alterou, False se não</returns>
         public static bool AlterarHoraFimIncendio(int idIncendio, DateTime horaFim)
         {
             return (IncendioDados.AlterarHoraFimIncendio(idIncendio, horaFim));
         }
 
        
-
+        /// <summary>
+        /// Adiciona uma viatura a um incêndio
+        /// </summary>
+        /// <param name="idViatura">ID da viatura a adicionar</param>
+        /// <param name="idIncendio">ID do incêndio onde vai adicionar a viatura</param>
+        /// <returns>True se adicionou, False se não</returns>
         public static bool AdicionarViaturaAIncendio(int idViatura, int idIncendio)
         {
             //existe!

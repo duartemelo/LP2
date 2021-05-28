@@ -172,6 +172,11 @@ namespace IncendioBO
             return false;
         }
 
+        /// <summary>
+        /// Adiciona uma viatura à lista de viaturasIDs deste incêndio
+        /// </summary>
+        /// <param name="id">ID viatura a adicionar</param>
+        /// <returns>True se adicionou com sucesso, false se não adicionou</returns>
         public bool AdicionarViatura(int id)
         {
             //"por fora", confirmar se ja existe a viatura nas viaturas!
@@ -186,11 +191,21 @@ namespace IncendioBO
 
         }
 
+        /// <summary>
+        /// Remove uma viatura da lista de viaturasIDs deste incêndio
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>True se removeu, False se não</returns>
         public bool RemoveViatura(int id)
         {
             return (viaturasIDs.Remove(id));
         }
 
+        /// <summary>
+        /// Verifica se uma viatura com determinado ID existe neste incêndio
+        /// </summary>
+        /// <param name="id">ID viatura a checkar</param>
+        /// <returns>True se existe, false se não</returns>
         public bool VerificarViaturaExisteNoIncendio(int id)
         {
             foreach(int idViatura in viaturasIDs)

@@ -75,12 +75,21 @@ namespace CorporacaoBR
             CorporacaoDados.MostraCorporacoes();
         }
         
-
+        /// <summary>
+        /// Verifica se uma corporação existe na lista de corporações a partir do seu ID
+        /// </summary>
+        /// <param name="id">ID da corporação a confirmar</param>
+        /// <returns>Retorna o que a função chamada do data retornar.</returns>
         public static bool VerificarCorporacaoExiste(int id)
         {
             return CorporacaoDados.VerificarCorporacaoExiste(id);
         }
 
+        /// <summary>
+        /// Devolve a corporação a partir do seu ID (cuidado! não manipular este objeto, pois não é alterado na lista!)
+        /// </summary>
+        /// <param name="id">ID Corporação</param>
+        /// <returns>Corporaçao (objeto)</returns>
         public static Corporacao DevolveCorporacaoPeloId(int id)
         {
             return CorporacaoDados.ObterCorporacaoPeloId(id);

@@ -10,7 +10,7 @@ using ViaturaOutput;
 namespace ViaturaData
 {
     /// <summary>
-    /// Library / class que trata de guardas as viaturas, apenas é acedida pelo ViaturaBR (ViaturaRegras)
+    /// Library / class que trata de guardar as viaturas, apenas é acedida pelo ViaturaBR (ViaturaRegras)
     /// </summary>
     public class ViaturaDados
     {
@@ -96,6 +96,11 @@ namespace ViaturaData
             ViaturaEscreve.MostraViaturas(viaturas);  
         }
 
+        /// <summary>
+        /// Devolve uma viatura (objeto) pelo seu id
+        /// </summary>
+        /// <param name="id">ID da viatura a devolver</param>
+        /// <returns>Objeto viatura se encontrar, null se não encontrar</returns>
         public static Viatura DevolveViaturaPeloId(int id)
         {
             foreach(Viatura viatura in viaturas)

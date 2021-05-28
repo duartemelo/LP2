@@ -1,10 +1,18 @@
-﻿using System;
+﻿/**
+ * Nome: Duarte Ribeiro de Melo
+ * E-mail: a21149@alunos.ipca.pt
+*/
+
+using System;
 using ViaturaBR;
 using ViaturaBO;
 using IncendioBR;
 
 namespace ViaturaInput
 {
+    /// <summary>
+    /// Class responsável pela interação com o utilizador, no que diz respeito às viaturas
+    /// </summary>
     public class ViaturaInputs
     {
         public static bool CriarViatura()
