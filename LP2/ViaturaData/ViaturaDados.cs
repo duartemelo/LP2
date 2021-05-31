@@ -3,6 +3,9 @@
  * E-mail: a21149@alunos.ipca.pt
 */
 
+using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Collections.Generic;
 using ViaturaBO;
 using ViaturaOutput;
@@ -12,6 +15,7 @@ namespace ViaturaData
     /// <summary>
     /// Library / class que trata de guardar as viaturas, apenas é acedida pelo ViaturaBR (ViaturaRegras)
     /// </summary>
+    [Serializable]
     public class ViaturaDados
     {
         #region Attributes
@@ -112,6 +116,67 @@ namespace ViaturaData
             }
             return null;
         }
+
+        #endregion
+
+        #region Data Saving
+
+        /// <summary>
+        /// Escreve a lista de viaturas num ficheiro binário
+        /// </summary>
+        public static void ViaturasEscreverFicheiro()
+        {
+            FileStream file = new FileStream("ViaturasData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, viaturas);
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Escreve o numIDs num ficheiro binário
+        /// </summary>
+        public static void NumIDsEscreverFicheiro()
+        {
+            FileStream file = new FileStream("NumIDsViaturasData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, numIDs);
+
+            file.Close();
+        }
+        #endregion
+
+        #region Loading Data
+
+        /// <summary>
+        /// Lê a lista de viaturas de um ficheiro binário
+        /// </summary>
+        public static void ViaturasLerFicheiro()
+        {
+            Stream file = File.Open("ViaturasData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+            {
+                viaturas = (List<Viatura>)b.Deserialize(file);
+                numViaturas = viaturas.Count;
+            }
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Lê o numIDs a partir de um ficheiro binario
+        /// </summary>
+        public static void NumIDsLerFicheiro()
+        {
+            Stream file = File.Open("NumIDsViaturasData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+                numIDs = (int)b.Deserialize(file);
+
+            file.Close();
+        }
+
 
         #endregion
     }

@@ -3,6 +3,8 @@
  * E-mail: a21149@alunos.ipca.pt
 */
 using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using IncendioBO;
 using IncendioOutput;
 using System.Collections.Generic;
@@ -12,6 +14,7 @@ namespace IncendioData
     /// <summary>
     /// Library que trata de guardar os incêndios, apenas é acedida pelo IncendioBR (IncendioRegras)
     /// </summary>
+    [Serializable]
     public class IncendioDados
     {
         #region Attributes
@@ -238,6 +241,67 @@ namespace IncendioData
             }
             return false;
         }
+
+        #endregion
+
+        #region Data Saving
+
+        /// <summary>
+        /// Escreve a lista de incêndios num ficheiro binário
+        /// </summary>
+        public static void IncendiosEscreverFicheiro()
+        {
+            FileStream file = new FileStream("IncendiosData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, incendios);
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Escreve o numIDs num ficheiro binário
+        /// </summary>
+        public static void NumIDsEscreverFicheiro()
+        {
+            FileStream file = new FileStream("NumIDsIncendiosData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, numIDs);
+
+            file.Close();
+        }
+        #endregion
+
+        #region Loading Data
+
+        /// <summary>
+        /// Lê a lista de incêndios de um ficheiro binário
+        /// </summary>
+        public static void IncendiosLerFicheiro()
+        {
+            Stream file = File.Open("IncendiosData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+            {
+                incendios = (List<Incendio>)b.Deserialize(file);
+                numIncendios = incendios.Count;
+            }
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Lê o numIDs a partir de um ficheiro binario
+        /// </summary>
+        public static void NumIDsLerFicheiro()
+        {
+            Stream file = File.Open("NumIDsIncendiosData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+                numIDs = (int)b.Deserialize(file);
+
+            file.Close();
+        }
+
 
         #endregion
     }

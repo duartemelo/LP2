@@ -3,12 +3,16 @@
  * E-mail: a21149@alunos.ipca.pt
 */
 
+using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using OperacionalBO;
 using OperacionalOutput;
 using System.Collections.Generic;
 
 namespace OperacionalData
 {
+    [Serializable]
     public class OperacionalDados
     {
         #region Attributes
@@ -223,6 +227,67 @@ namespace OperacionalData
             }
             return false;
         }
+
+        #endregion
+
+        #region Data Saving
+
+        /// <summary>
+        /// Escreve a lista de operacionais num ficheiro binário
+        /// </summary>
+        public static void OperacionaisEscreverFicheiro()
+        {
+            FileStream file = new FileStream("OperacionaisData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, operacionais);
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Escreve o numIDs num ficheiro binário
+        /// </summary>
+        public static void NumIDsEscreverFicheiro()
+        {
+            FileStream file = new FileStream("NumIDsOperacionaisData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, numIDs);
+
+            file.Close();
+        }
+        #endregion
+
+        #region Loading Data
+
+        /// <summary>
+        /// Lê a lista de operacionais de um ficheiro binário
+        /// </summary>
+        public static void OperacionaisLerFicheiro()
+        {
+            Stream file = File.Open("OperacionaisData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+            {
+                operacionais = (List<Operacional>)b.Deserialize(file);
+                numOperacionais = operacionais.Count;
+            }
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Lê o numIDs a partir de um ficheiro binario
+        /// </summary>
+        public static void NumIDsLerFicheiro()
+        {
+            Stream file = File.Open("NumIDsOperacionaisData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+                numIDs = (int)b.Deserialize(file);
+
+            file.Close();
+        }
+
 
         #endregion
     }

@@ -2,6 +2,9 @@
  * Nome: Duarte Ribeiro de Melo
  * E-mail: a21149@alunos.ipca.pt
 */
+using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using CorporacaoBO;
 using CorporacaoOutput;
 using System.Collections.Generic;
@@ -11,6 +14,7 @@ namespace CorporacaoData
     /// <summary>
     /// Library que trata de guardar as corporações, apenas é acedida pelo CorporacaoBR (CorporacaoRegras)
     /// </summary>
+    [Serializable]
     public class CorporacaoDados
     {
         #region Attributes
@@ -141,6 +145,67 @@ namespace CorporacaoData
         {
             CorporacaoEscreve.MostraCorporacoes(corporacoes);
         }
+
+        #endregion
+
+        #region Data Saving
+
+        /// <summary>
+        /// Escreve a lista de corporações num ficheiro binário
+        /// </summary>
+        public static void CorporacoesEscreverFicheiro()
+        {
+            FileStream file = new FileStream("CorporacoesData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, corporacoes);
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Escreve o numIDs num ficheiro binário
+        /// </summary>
+        public static void NumIDsEscreverFicheiro()
+        {
+            FileStream file = new FileStream("NumIDsCorporacoesData.bin", FileMode.Create);
+            BinaryFormatter bfw = new BinaryFormatter();
+            bfw.Serialize(file, numIDs);
+
+            file.Close();
+        }
+        #endregion
+
+        #region Loading Data
+
+        /// <summary>
+        /// Lê a lista de corporações de um ficheiro binário
+        /// </summary>
+        public static void CorporacoesLerFicheiro()
+        {
+            Stream file = File.Open("CorporacoesData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+            {
+                corporacoes = (List<Corporacao>)b.Deserialize(file);
+                numCorporacoes = corporacoes.Count;
+            }
+
+            file.Close();
+        }
+
+        /// <summary>
+        /// Lê o numIDs a partir de um ficheiro binario
+        /// </summary>
+        public static void NumIDsLerFicheiro()
+        {
+            Stream file = File.Open("NumIDsCorporacoesData.bin", FileMode.Open, FileAccess.Read);
+            BinaryFormatter b = new BinaryFormatter();
+            if (file.Length != 0)
+                numIDs = (int)b.Deserialize(file);
+
+            file.Close();
+        }
+
 
         #endregion
     }

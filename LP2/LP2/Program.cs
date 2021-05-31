@@ -3,14 +3,8 @@
  * E-mail: a21149@alunos.ipca.pt
 */
 
-using CorporacaoBO;
-using CorporacaoBR;
-using IncendioBO;
-using IncendioBR;
-using OperacionalBO;
-using OperacionalBR;
-using System;
 using Menu;
+using System;
 
 namespace LP2
 {
